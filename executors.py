@@ -296,5 +296,9 @@ class Text2Frame(Executor):
                 new_match = m
                 new_match.location.append(int(new_match.tags['beg_in_seconds'] * 1000))
                 new_match.location.append(int(new_match.tags['end_in_seconds'] * 1000))
+                vid = new_match.tags['vid'].split('.')[0]
+                new_match.uri = f'https://www.youtube.com/watch?v={vid}'
+                new_match.tags['timestamp'] = int(new_match.tags['beg_in_seconds'])
+                new_match.scores['cosine'] = new_match.scores['relevance']
                 new_matches.append(new_match)
             doc.matches = new_matches
