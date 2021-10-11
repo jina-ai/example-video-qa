@@ -2,7 +2,10 @@ jtype: Flow
 version: '1'
 executors:
   - name: encoder
-    uses: jinahub://TransformerSentenceEncoder/v0.2
+    uses: jinahub://DPRTextEncoder/v0.2
+    uses_with:
+      encoder_type: 'question'
+      batch_size: 1
   - name: vec_indexer
     uses: jinahub://SimpleIndexer/v0.4
     uses_with:

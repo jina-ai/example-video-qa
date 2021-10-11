@@ -29,13 +29,26 @@ def query():
                 print(f'{d.id}: {m.id}, {m.scores["relevance"]}, {m.location}, {m.text}, {m.tags}')
 
 
+def query_restful():
+    f = Flow.load_config('flows/query.yml',
+                         override_with={
+                             'protocol': 'http',
+                             'cors': True,
+                             'port_expose': '45678'})
+
+    with f:
+        f.block()
+
+
 @click.command()
-@click.option('--mode', '-m', type=click.Choice(['index', 'query']), default='query')
+@click.option('--mode', '-m', type=click.Choice(['index', 'query', 'query_restful']), default='query')
 def main(mode):
     if mode == 'index':
         index()
     elif mode == 'query':
         query()
+    elif mode == 'query_restful':
+        query_restful()
 
 
 if __name__ == '__main__':
