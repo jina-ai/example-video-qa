@@ -1,0 +1,37 @@
+jtype: Flow
+version: '1'
+executors:
+  - name: encoder
+    uses: jinahub://TransformerSentenceEncoder/v0.2
+  - name: vec_indexer
+    uses: jinahub://SimpleIndexer/v0.4
+    uses_with:
+      match_args:
+        limit: 20
+        traversal_ldarray:
+          - 'r'
+        traversal_rdarray:
+          - 'c'
+  - name: match_extender  # expand the matches with sliding windows
+    uses: MatchExtender
+    uses_with:
+      window_size: 4
+    py_module:
+      - executors.py
+  - name: kv_indexer
+    uses: jinahub://LMDBStorage/v0.1
+    uses_with:
+      default_return_embeddings: False
+      dump_path: './workspace/dump_lmdb'
+      default_traversal_paths:
+        - 'm'
+  - name: ranker
+    uses: DPRReaderRanker  # extract the answers from the matches, save the location information
+    py_module:
+      - executors.py
+    uses_with:
+      num_spans_per_match: 1
+  - name: text2frame_converter  # calculate the location based on the text
+    uses: Text2Frame
+    py_module:
+      - executors.py

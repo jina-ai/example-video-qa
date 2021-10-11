@@ -1,0 +1,1872 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.040 --> 00:00:03.830 align:start position:0%
+ 
+hi<00:00:01.439><c> my</c><00:00:01.680><c> name</c><00:00:01.839><c> is</c><00:00:02.000><c> han</c><00:00:02.480><c> founder</c><00:00:02.960><c> and</c><00:00:03.120><c> ceo</c><00:00:03.679><c> of</c>
+
+00:00:03.830 --> 00:00:03.840 align:start position:0%
+hi my name is han founder and ceo of
+ 
+
+00:00:03.840 --> 00:00:04.789 align:start position:0%
+hi my name is han founder and ceo of
+gene<00:00:04.080><c> ai</c>
+
+00:00:04.789 --> 00:00:04.799 align:start position:0%
+gene ai
+ 
+
+00:00:04.799 --> 00:00:07.030 align:start position:0%
+gene ai
+in<00:00:04.960><c> this</c><00:00:05.200><c> episode</c><00:00:05.920><c> i'm</c><00:00:06.080><c> going</c><00:00:06.319><c> to</c><00:00:06.480><c> introduce</c>
+
+00:00:07.030 --> 00:00:07.040 align:start position:0%
+in this episode i'm going to introduce
+ 
+
+00:00:07.040 --> 00:00:11.589 align:start position:0%
+in this episode i'm going to introduce
+you<00:00:07.200><c> some</c><00:00:07.440><c> basic</c><00:00:07.839><c> concepts</c><00:00:08.480><c> in</c><00:00:08.639><c> gina</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+ 
+ 
+
+00:00:11.599 --> 00:00:14.070 align:start position:0%
+ 
+gina<00:00:12.160><c> is</c><00:00:12.320><c> an</c><00:00:12.480><c> easier</c><00:00:12.880><c> way</c><00:00:13.120><c> to</c><00:00:13.280><c> develop</c><00:00:13.679><c> neural</c>
+
+00:00:14.070 --> 00:00:14.080 align:start position:0%
+gina is an easier way to develop neural
+ 
+
+00:00:14.080 --> 00:00:15.509 align:start position:0%
+gina is an easier way to develop neural
+search<00:00:14.400><c> on</c><00:00:14.480><c> the</c><00:00:14.639><c> cloud</c>
+
+00:00:15.509 --> 00:00:15.519 align:start position:0%
+search on the cloud
+ 
+
+00:00:15.519 --> 00:00:18.150 align:start position:0%
+search on the cloud
+i<00:00:15.759><c> often</c><00:00:16.000><c> call</c><00:00:16.240><c> it</c><00:00:16.480><c> tensorflow</c><00:00:17.039><c> for</c><00:00:17.279><c> search</c><00:00:18.000><c> if</c>
+
+00:00:18.150 --> 00:00:18.160 align:start position:0%
+i often call it tensorflow for search if
+ 
+
+00:00:18.160 --> 00:00:19.830 align:start position:0%
+i often call it tensorflow for search if
+you<00:00:18.320><c> haven't</c><00:00:18.640><c> tried</c><00:00:18.880><c> genome</c><00:00:19.199><c> before</c>
+
+00:00:19.830 --> 00:00:19.840 align:start position:0%
+you haven't tried genome before
+ 
+
+00:00:19.840 --> 00:00:22.390 align:start position:0%
+you haven't tried genome before
+you<00:00:20.000><c> can</c><00:00:20.240><c> install</c><00:00:20.640><c> gina</c><00:00:20.960><c> vale</c><00:00:21.199><c> pi</c><00:00:21.520><c> pi</c><00:00:22.000><c> and</c><00:00:22.160><c> run</c>
+
+00:00:22.390 --> 00:00:22.400 align:start position:0%
+you can install gina vale pi pi and run
+ 
+
+00:00:22.400 --> 00:00:24.790 align:start position:0%
+you can install gina vale pi pi and run
+gina<00:00:22.720><c> hello</c><00:00:23.039><c> demos</c><00:00:23.519><c> to</c><00:00:23.680><c> see</c><00:00:23.920><c> examples</c><00:00:24.560><c> on</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+gina hello demos to see examples on
+ 
+
+00:00:24.800 --> 00:00:26.150 align:start position:0%
+gina hello demos to see examples on
+fashion<00:00:25.199><c> image</c><00:00:25.599><c> search</c>
+
+00:00:26.150 --> 00:00:26.160 align:start position:0%
+fashion image search
+ 
+
+00:00:26.160 --> 00:00:29.750 align:start position:0%
+fashion image search
+chatbot<00:00:26.880><c> and</c><00:00:27.119><c> multi</c><00:00:27.359><c> modality</c><00:00:28.080><c> search</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+chatbot and multi modality search
+ 
+
+00:00:29.760 --> 00:00:31.830 align:start position:0%
+chatbot and multi modality search
+if<00:00:29.920><c> you</c><00:00:30.160><c> have</c><00:00:30.400><c> installed</c><00:00:30.880><c> gina</c><00:00:31.279><c> you</c><00:00:31.439><c> may</c><00:00:31.599><c> want</c>
+
+00:00:31.830 --> 00:00:31.840 align:start position:0%
+if you have installed gina you may want
+ 
+
+00:00:31.840 --> 00:00:33.830 align:start position:0%
+if you have installed gina you may want
+to<00:00:31.920><c> make</c><00:00:32.160><c> sure</c><00:00:32.480><c> it</c><00:00:32.640><c> is</c><00:00:32.800><c> the</c><00:00:32.880><c> latest</c><00:00:33.280><c> version</c><00:00:33.680><c> by</c>
+
+00:00:33.830 --> 00:00:33.840 align:start position:0%
+to make sure it is the latest version by
+ 
+
+00:00:33.840 --> 00:00:35.030 align:start position:0%
+to make sure it is the latest version by
+using<00:00:34.239><c> pip</c><00:00:34.559><c> install</c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+using pip install
+ 
+
+00:00:35.040 --> 00:00:39.110 align:start position:0%
+using pip install
+minus<00:00:35.520><c> eugena</c><00:00:37.280><c> gina</c><00:00:37.760><c> is</c><00:00:37.840><c> not</c><00:00:38.079><c> a</c><00:00:38.160><c> one-liner</c>
+
+00:00:39.110 --> 00:00:39.120 align:start position:0%
+minus eugena gina is not a one-liner
+ 
+
+00:00:39.120 --> 00:00:42.630 align:start position:0%
+minus eugena gina is not a one-liner
+or<00:00:39.440><c> image</c><00:00:39.840><c> search</c><00:00:40.160><c> solution</c><00:00:41.280><c> instead</c><00:00:42.079><c> gina</c><00:00:42.480><c> is</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+or image search solution instead gina is
+ 
+
+00:00:42.640 --> 00:00:43.990 align:start position:0%
+or image search solution instead gina is
+a<00:00:42.719><c> universal</c><00:00:43.280><c> framework</c>
+
+00:00:43.990 --> 00:00:44.000 align:start position:0%
+a universal framework
+ 
+
+00:00:44.000 --> 00:00:45.510 align:start position:0%
+a universal framework
+allows<00:00:44.320><c> you</c><00:00:44.480><c> to</c><00:00:44.640><c> build</c><00:00:44.879><c> deep</c><00:00:45.120><c> learning</c>
+
+00:00:45.510 --> 00:00:45.520 align:start position:0%
+allows you to build deep learning
+ 
+
+00:00:45.520 --> 00:00:48.229 align:start position:0%
+allows you to build deep learning
+powered<00:00:46.000><c> search</c><00:00:46.320><c> on</c><00:00:46.480><c> the</c><00:00:46.640><c> cloud</c>
+
+00:00:48.229 --> 00:00:48.239 align:start position:0%
+powered search on the cloud
+ 
+
+00:00:48.239 --> 00:00:50.790 align:start position:0%
+powered search on the cloud
+as<00:00:48.480><c> a</c><00:00:48.640><c> framework</c><00:00:49.440><c> gina</c><00:00:49.920><c> is</c><00:00:50.079><c> designed</c><00:00:50.480><c> to</c><00:00:50.640><c> be</c>
+
+00:00:50.790 --> 00:00:50.800 align:start position:0%
+as a framework gina is designed to be
+ 
+
+00:00:50.800 --> 00:00:51.750 align:start position:0%
+as a framework gina is designed to be
+universal
+
+00:00:51.750 --> 00:00:51.760 align:start position:0%
+universal
+ 
+
+00:00:51.760 --> 00:00:53.750 align:start position:0%
+universal
+which<00:00:52.000><c> means</c><00:00:52.320><c> that</c><00:00:52.559><c> it</c><00:00:52.719><c> can</c><00:00:52.960><c> solve</c><00:00:53.280><c> all</c><00:00:53.440><c> kinds</c>
+
+00:00:53.750 --> 00:00:53.760 align:start position:0%
+which means that it can solve all kinds
+ 
+
+00:00:53.760 --> 00:00:55.189 align:start position:0%
+which means that it can solve all kinds
+of<00:00:53.840><c> new</c><00:00:54.079><c> research</c><00:00:54.480><c> problems</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+of new research problems
+ 
+
+00:00:55.199 --> 00:00:57.189 align:start position:0%
+of new research problems
+whether<00:00:55.520><c> it</c><00:00:55.680><c> is</c><00:00:55.920><c> image</c><00:00:56.160><c> to</c><00:00:56.399><c> image</c><00:00:56.719><c> search</c>
+
+00:00:57.189 --> 00:00:57.199 align:start position:0%
+whether it is image to image search
+ 
+
+00:00:57.199 --> 00:00:58.869 align:start position:0%
+whether it is image to image search
+semantic<00:00:57.840><c> text</c><00:00:58.160><c> search</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+semantic text search
+ 
+
+00:00:58.879 --> 00:01:01.590 align:start position:0%
+semantic text search
+question<00:00:59.440><c> answering</c><00:01:00.239><c> gina</c><00:01:00.719><c> can</c><00:01:00.960><c> handle</c><00:01:01.280><c> them</c>
+
+00:01:01.590 --> 00:01:01.600 align:start position:0%
+question answering gina can handle them
+ 
+
+00:01:01.600 --> 00:01:02.069 align:start position:0%
+question answering gina can handle them
+all
+
+00:01:02.069 --> 00:01:02.079 align:start position:0%
+all
+ 
+
+00:01:02.079 --> 00:01:05.109 align:start position:0%
+all
+regardless<00:01:02.800><c> its</c><00:01:02.960><c> media</c><00:01:03.359><c> type</c>
+
+00:01:05.109 --> 00:01:05.119 align:start position:0%
+regardless its media type
+ 
+
+00:01:05.119 --> 00:01:07.510 align:start position:0%
+regardless its media type
+one<00:01:05.280><c> of</c><00:01:05.439><c> the</c><00:01:05.600><c> major</c><00:01:06.000><c> benefits</c><00:01:06.560><c> of</c><00:01:06.720><c> using</c><00:01:07.119><c> gina</c>
+
+00:01:07.510 --> 00:01:07.520 align:start position:0%
+one of the major benefits of using gina
+ 
+
+00:01:07.520 --> 00:01:08.870 align:start position:0%
+one of the major benefits of using gina
+is<00:01:07.760><c> saving</c><00:01:08.159><c> time</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+is saving time
+ 
+
+00:01:08.880 --> 00:01:10.390 align:start position:0%
+is saving time
+gina<00:01:09.280><c> provides</c><00:01:09.680><c> a</c><00:01:09.840><c> natural</c><00:01:10.240><c> and</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+gina provides a natural and
+ 
+
+00:01:10.400 --> 00:01:12.070 align:start position:0%
+gina provides a natural and
+straightforward<00:01:11.119><c> design</c><00:01:11.520><c> pattern</c>
+
+00:01:12.070 --> 00:01:12.080 align:start position:0%
+straightforward design pattern
+ 
+
+00:01:12.080 --> 00:01:14.070 align:start position:0%
+straightforward design pattern
+for<00:01:12.320><c> building</c><00:01:12.720><c> your</c><00:01:13.040><c> search</c><00:01:13.360><c> solutions</c><00:01:14.000><c> on</c>
+
+00:01:14.070 --> 00:01:14.080 align:start position:0%
+for building your search solutions on
+ 
+
+00:01:14.080 --> 00:01:15.270 align:start position:0%
+for building your search solutions on
+the<00:01:14.320><c> cloud</c><00:01:14.960><c> which</c>
+
+00:01:15.270 --> 00:01:15.280 align:start position:0%
+the cloud which
+ 
+
+00:01:15.280 --> 00:01:18.390 align:start position:0%
+the cloud which
+otherwise<00:01:15.840><c> could</c><00:01:16.080><c> take</c><00:01:16.320><c> months</c>
+
+00:01:18.390 --> 00:01:18.400 align:start position:0%
+otherwise could take months
+ 
+
+00:01:18.400 --> 00:01:20.710 align:start position:0%
+otherwise could take months
+once<00:01:18.720><c> onboarding</c><00:01:19.360><c> with</c><00:01:19.600><c> gina</c><00:01:20.159><c> you</c><00:01:20.320><c> don't</c><00:01:20.560><c> have</c>
+
+00:01:20.710 --> 00:01:20.720 align:start position:0%
+once onboarding with gina you don't have
+ 
+
+00:01:20.720 --> 00:01:21.990 align:start position:0%
+once onboarding with gina you don't have
+to<00:01:20.880><c> leave</c><00:01:21.119><c> again</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+to leave again
+ 
+
+00:01:22.000 --> 00:01:25.030 align:start position:0%
+to leave again
+with<00:01:22.320><c> gina</c><00:01:22.880><c> you</c><00:01:23.200><c> keep</c><00:01:23.520><c> an</c><00:01:23.759><c> end</c><00:01:24.000><c> to</c><00:01:24.320><c> end</c><00:01:24.640><c> stack</c>
+
+00:01:25.030 --> 00:01:25.040 align:start position:0%
+with gina you keep an end to end stack
+ 
+
+00:01:25.040 --> 00:01:27.109 align:start position:0%
+with gina you keep an end to end stack
+ownership<00:01:25.759><c> of</c><00:01:25.920><c> your</c><00:01:26.080><c> solution</c>
+
+00:01:27.109 --> 00:01:27.119 align:start position:0%
+ownership of your solution
+ 
+
+00:01:27.119 --> 00:01:29.109 align:start position:0%
+ownership of your solution
+avoid<00:01:27.520><c> integration</c><00:01:28.240><c> paid</c><00:01:28.479><c> files</c><00:01:28.880><c> with</c>
+
+00:01:29.109 --> 00:01:29.119 align:start position:0%
+avoid integration paid files with
+ 
+
+00:01:29.119 --> 00:01:30.149 align:start position:0%
+avoid integration paid files with
+fragmented
+
+00:01:30.149 --> 00:01:30.159 align:start position:0%
+fragmented
+ 
+
+00:01:30.159 --> 00:01:34.310 align:start position:0%
+fragmented
+multi-vendor<00:01:31.360><c> generic</c><00:01:32.159><c> legacy</c><00:01:32.799><c> tools</c>
+
+00:01:34.310 --> 00:01:34.320 align:start position:0%
+multi-vendor generic legacy tools
+ 
+
+00:01:34.320 --> 00:01:36.149 align:start position:0%
+multi-vendor generic legacy tools
+unlike<00:01:34.799><c> other</c><00:01:35.119><c> deep</c><00:01:35.360><c> learning</c><00:01:35.680><c> framework</c>
+
+00:01:36.149 --> 00:01:36.159 align:start position:0%
+unlike other deep learning framework
+ 
+
+00:01:36.159 --> 00:01:37.990 align:start position:0%
+unlike other deep learning framework
+which<00:01:36.400><c> designed</c><00:01:36.799><c> to</c><00:01:36.960><c> be</c><00:01:37.119><c> local</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+which designed to be local
+ 
+
+00:01:38.000 --> 00:01:40.230 align:start position:0%
+which designed to be local
+gina<00:01:38.479><c> is</c><00:01:38.640><c> designed</c><00:01:39.040><c> to</c><00:01:39.200><c> be</c><00:01:39.360><c> distributed</c><00:01:40.079><c> on</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+gina is designed to be distributed on
+ 
+
+00:01:40.240 --> 00:01:41.749 align:start position:0%
+gina is designed to be distributed on
+the<00:01:40.400><c> cloud</c>
+
+00:01:41.749 --> 00:01:41.759 align:start position:0%
+the cloud
+ 
+
+00:01:41.759 --> 00:01:43.830 align:start position:0%
+the cloud
+so<00:01:41.920><c> features</c><00:01:42.479><c> like</c><00:01:42.759><c> uncontainabilizing</c>
+
+00:01:43.830 --> 00:01:43.840 align:start position:0%
+so features like uncontainabilizing
+ 
+
+00:01:43.840 --> 00:01:44.870 align:start position:0%
+so features like uncontainabilizing
+distributing
+
+00:01:44.870 --> 00:01:44.880 align:start position:0%
+distributing
+ 
+
+00:01:44.880 --> 00:01:48.230 align:start position:0%
+distributing
+shading<00:01:45.439><c> asynchronizing</c><00:01:46.799><c> rest</c><00:01:47.280><c> grpc</c>
+
+00:01:48.230 --> 00:01:48.240 align:start position:0%
+shading asynchronizing rest grpc
+ 
+
+00:01:48.240 --> 00:01:51.510 align:start position:0%
+shading asynchronizing rest grpc
+websocket<00:01:49.280><c> they</c><00:01:49.520><c> work</c><00:01:49.840><c> out</c><00:01:50.079><c> of</c><00:01:50.159><c> the</c><00:01:50.320><c> box</c>
+
+00:01:51.510 --> 00:01:51.520 align:start position:0%
+websocket they work out of the box
+ 
+
+00:01:51.520 --> 00:01:53.510 align:start position:0%
+websocket they work out of the box
+finally<00:01:52.320><c> gina</c><00:01:52.720><c> builds</c><00:01:53.200><c> many</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+finally gina builds many
+ 
+
+00:01:53.520 --> 00:01:55.510 align:start position:0%
+finally gina builds many
+state-of-the-art<00:01:54.320><c> ai</c><00:01:54.640><c> models</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+state-of-the-art ai models
+ 
+
+00:01:55.520 --> 00:01:57.990 align:start position:0%
+state-of-the-art ai models
+they<00:01:55.759><c> are</c><00:01:55.920><c> easily</c><00:01:56.399><c> usable</c><00:01:56.960><c> and</c><00:01:57.200><c> extendable</c>
+
+00:01:57.990 --> 00:01:58.000 align:start position:0%
+they are easily usable and extendable
+ 
+
+00:01:58.000 --> 00:02:00.870 align:start position:0%
+they are easily usable and extendable
+with<00:01:58.240><c> a</c><00:01:58.399><c> pysonic</c><00:01:59.119><c> interface</c>
+
+00:02:00.870 --> 00:02:00.880 align:start position:0%
+with a pysonic interface
+ 
+
+00:02:00.880 --> 00:02:03.590 align:start position:0%
+with a pysonic interface
+as<00:02:01.119><c> a</c><00:02:01.200><c> beginner</c><00:02:02.159><c> you</c><00:02:02.320><c> may</c><00:02:02.560><c> encounter</c><00:02:03.040><c> many</c><00:02:03.360><c> new</c>
+
+00:02:03.590 --> 00:02:03.600 align:start position:0%
+as a beginner you may encounter many new
+ 
+
+00:02:03.600 --> 00:02:05.429 align:start position:0%
+as a beginner you may encounter many new
+idioms<00:02:04.159><c> in</c><00:02:04.320><c> gina</c>
+
+00:02:05.429 --> 00:02:05.439 align:start position:0%
+idioms in gina
+ 
+
+00:02:05.439 --> 00:02:09.029 align:start position:0%
+idioms in gina
+terms<00:02:05.840><c> such</c><00:02:06.159><c> as</c><00:02:06.560><c> p</c><00:02:07.200><c> pod</c><00:02:08.160><c> driver</c>
+
+00:02:09.029 --> 00:02:09.039 align:start position:0%
+terms such as p pod driver
+ 
+
+00:02:09.039 --> 00:02:12.390 align:start position:0%
+terms such as p pod driver
+executor<00:02:09.920><c> and</c><00:02:10.160><c> flow</c><00:02:11.280><c> those</c><00:02:11.599><c> concepts</c><00:02:12.239><c> are</c>
+
+00:02:12.390 --> 00:02:12.400 align:start position:0%
+executor and flow those concepts are
+ 
+
+00:02:12.400 --> 00:02:14.630 align:start position:0%
+executor and flow those concepts are
+important<00:02:12.959><c> because</c><00:02:13.280><c> they</c><00:02:13.520><c> define</c><00:02:14.000><c> what</c><00:02:14.239><c> gina</c>
+
+00:02:14.630 --> 00:02:14.640 align:start position:0%
+important because they define what gina
+ 
+
+00:02:14.640 --> 00:02:15.750 align:start position:0%
+important because they define what gina
+is<00:02:14.879><c> today</c>
+
+00:02:15.750 --> 00:02:15.760 align:start position:0%
+is today
+ 
+
+00:02:15.760 --> 00:02:17.510 align:start position:0%
+is today
+but<00:02:16.000><c> fortunately</c><00:02:16.800><c> you</c><00:02:16.959><c> don't</c><00:02:17.200><c> have</c><00:02:17.360><c> to</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+but fortunately you don't have to
+ 
+
+00:02:17.520 --> 00:02:20.150 align:start position:0%
+but fortunately you don't have to
+remember<00:02:18.080><c> all</c><00:02:18.319><c> of</c><00:02:18.480><c> them</c>
+
+00:02:20.150 --> 00:02:20.160 align:start position:0%
+remember all of them
+ 
+
+00:02:20.160 --> 00:02:22.630 align:start position:0%
+remember all of them
+think<00:02:20.480><c> gina</c><00:02:20.800><c> as</c><00:02:20.959><c> a</c><00:02:21.120><c> cake</c><00:02:21.760><c> shaped</c><00:02:22.080><c> with</c><00:02:22.319><c> many</c>
+
+00:02:22.630 --> 00:02:22.640 align:start position:0%
+think gina as a cake shaped with many
+ 
+
+00:02:22.640 --> 00:02:23.589 align:start position:0%
+think gina as a cake shaped with many
+layers
+
+00:02:23.589 --> 00:02:23.599 align:start position:0%
+layers
+ 
+
+00:02:23.599 --> 00:02:25.910 align:start position:0%
+layers
+top<00:02:23.840><c> layer</c><00:02:24.239><c> is</c><00:02:24.400><c> decorations</c><00:02:25.440><c> and</c><00:02:25.599><c> then</c>
+
+00:02:25.910 --> 00:02:25.920 align:start position:0%
+top layer is decorations and then
+ 
+
+00:02:25.920 --> 00:02:26.790 align:start position:0%
+top layer is decorations and then
+frosting
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+frosting
+ 
+
+00:02:26.800 --> 00:02:30.550 align:start position:0%
+frosting
+fillings<00:02:27.760><c> bottom</c><00:02:28.160><c> layer</c><00:02:28.560><c> is</c><00:02:28.720><c> a</c><00:02:28.879><c> crust</c>
+
+00:02:30.550 --> 00:02:30.560 align:start position:0%
+fillings bottom layer is a crust
+ 
+
+00:02:30.560 --> 00:02:32.630 align:start position:0%
+fillings bottom layer is a crust
+when<00:02:30.800><c> eating</c><00:02:31.200><c> the</c><00:02:31.360><c> cake</c><00:02:31.840><c> you</c><00:02:32.000><c> can</c><00:02:32.239><c> always</c>
+
+00:02:32.630 --> 00:02:32.640 align:start position:0%
+when eating the cake you can always
+ 
+
+00:02:32.640 --> 00:02:35.350 align:start position:0%
+when eating the cake you can always
+choose<00:02:32.959><c> which</c><00:02:33.200><c> layer</c><00:02:33.599><c> you</c><00:02:33.760><c> want</c><00:02:33.920><c> to</c><00:02:34.080><c> start</c>
+
+00:02:35.350 --> 00:02:35.360 align:start position:0%
+choose which layer you want to start
+ 
+
+00:02:35.360 --> 00:02:37.509 align:start position:0%
+choose which layer you want to start
+if<00:02:35.519><c> you're</c><00:02:35.760><c> a</c><00:02:35.840><c> hardcore</c><00:02:36.319><c> guy</c><00:02:36.800><c> there's</c><00:02:37.120><c> nothing</c>
+
+00:02:37.509 --> 00:02:37.519 align:start position:0%
+if you're a hardcore guy there's nothing
+ 
+
+00:02:37.519 --> 00:02:40.630 align:start position:0%
+if you're a hardcore guy there's nothing
+wrong<00:02:37.680><c> to</c><00:02:37.840><c> eat</c><00:02:38.080><c> a</c><00:02:38.239><c> cake</c><00:02:38.640><c> bottom</c><00:02:39.120><c> up</c>
+
+00:02:40.630 --> 00:02:40.640 align:start position:0%
+wrong to eat a cake bottom up
+ 
+
+00:02:40.640 --> 00:02:42.869 align:start position:0%
+wrong to eat a cake bottom up
+gina<00:02:41.120><c> as</c><00:02:41.280><c> a</c><00:02:41.440><c> framework</c><00:02:42.000><c> is</c><00:02:42.239><c> all</c><00:02:42.480><c> about</c>
+
+00:02:42.869 --> 00:02:42.879 align:start position:0%
+gina as a framework is all about
+ 
+
+00:02:42.879 --> 00:02:44.070 align:start position:0%
+gina as a framework is all about
+abstraction
+
+00:02:44.070 --> 00:02:44.080 align:start position:0%
+abstraction
+ 
+
+00:02:44.080 --> 00:02:46.150 align:start position:0%
+abstraction
+abstractions<00:02:44.800><c> at</c><00:02:44.879><c> different</c><00:02:45.280><c> layers</c><00:02:46.000><c> and</c>
+
+00:02:46.150 --> 00:02:46.160 align:start position:0%
+abstractions at different layers and
+ 
+
+00:02:46.160 --> 00:02:47.830 align:start position:0%
+abstractions at different layers and
+then<00:02:46.480><c> exposing</c><00:02:47.040><c> the</c><00:02:47.200><c> abstraction</c>
+
+00:02:47.830 --> 00:02:47.840 align:start position:0%
+then exposing the abstraction
+ 
+
+00:02:47.840 --> 00:02:50.869 align:start position:0%
+then exposing the abstraction
+as<00:02:48.080><c> api</c><00:02:48.560><c> to</c><00:02:48.720><c> the</c><00:02:48.879><c> users</c><00:02:49.360><c> or</c><00:02:49.599><c> developers</c>
+
+00:02:50.869 --> 00:02:50.879 align:start position:0%
+as api to the users or developers
+ 
+
+00:02:50.879 --> 00:02:53.750 align:start position:0%
+as api to the users or developers
+some<00:02:51.120><c> high-level</c><00:02:51.760><c> apis</c><00:02:52.319><c> are</c><00:02:52.480><c> public</c><00:02:53.360><c> some</c>
+
+00:02:53.750 --> 00:02:53.760 align:start position:0%
+some high-level apis are public some
+ 
+
+00:02:53.760 --> 00:02:55.910 align:start position:0%
+some high-level apis are public some
+intermediate<00:02:54.480><c> or</c><00:02:54.640><c> low-level</c><00:02:55.200><c> apis</c>
+
+00:02:55.910 --> 00:02:55.920 align:start position:0%
+intermediate or low-level apis
+ 
+
+00:02:55.920 --> 00:02:57.910 align:start position:0%
+intermediate or low-level apis
+are<00:02:56.080><c> highlighted</c><00:02:56.640><c> intentionally</c><00:02:57.680><c> so</c>
+
+00:02:57.910 --> 00:02:57.920 align:start position:0%
+are highlighted intentionally so
+ 
+
+00:02:57.920 --> 00:03:00.949 align:start position:0%
+are highlighted intentionally so
+developers<00:02:58.480><c> can</c><00:02:58.640><c> stay</c><00:02:58.959><c> focused</c>
+
+00:03:00.949 --> 00:03:00.959 align:start position:0%
+developers can stay focused
+ 
+
+00:03:00.959 --> 00:03:03.270 align:start position:0%
+developers can stay focused
+okay<00:03:01.599><c> now</c><00:03:01.760><c> let's</c><00:03:02.000><c> start</c><00:03:02.319><c> with</c><00:03:02.480><c> the</c><00:03:02.640><c> toughest</c>
+
+00:03:03.270 --> 00:03:03.280 align:start position:0%
+okay now let's start with the toughest
+ 
+
+00:03:03.280 --> 00:03:03.990 align:start position:0%
+okay now let's start with the toughest
+layer
+
+00:03:03.990 --> 00:03:04.000 align:start position:0%
+layer
+ 
+
+00:03:04.000 --> 00:03:08.070 align:start position:0%
+layer
+the<00:03:04.239><c> app</c><00:03:06.000><c> the</c><00:03:06.159><c> app</c><00:03:06.480><c> is</c><00:03:06.720><c> by</c><00:03:06.959><c> far</c><00:03:07.280><c> the</c><00:03:07.599><c> highest</c>
+
+00:03:08.070 --> 00:03:08.080 align:start position:0%
+the app the app is by far the highest
+ 
+
+00:03:08.080 --> 00:03:09.350 align:start position:0%
+the app the app is by far the highest
+level<00:03:08.480><c> concept</c><00:03:09.120><c> in</c>
+
+00:03:09.350 --> 00:03:09.360 align:start position:0%
+level concept in
+ 
+
+00:03:09.360 --> 00:03:11.830 align:start position:0%
+level concept in
+gina<00:03:10.239><c> it</c><00:03:10.480><c> represents</c><00:03:11.040><c> a</c><00:03:11.200><c> new</c><00:03:11.360><c> research</c>
+
+00:03:11.830 --> 00:03:11.840 align:start position:0%
+gina it represents a new research
+ 
+
+00:03:11.840 --> 00:03:14.070 align:start position:0%
+gina it represents a new research
+project<00:03:12.319><c> that</c><00:03:12.480><c> delivers</c><00:03:13.040><c> end-to-end</c><00:03:13.680><c> user</c>
+
+00:03:14.070 --> 00:03:14.080 align:start position:0%
+project that delivers end-to-end user
+ 
+
+00:03:14.080 --> 00:03:15.990 align:start position:0%
+project that delivers end-to-end user
+experience
+
+00:03:15.990 --> 00:03:16.000 align:start position:0%
+experience
+ 
+
+00:03:16.000 --> 00:03:18.309 align:start position:0%
+experience
+for<00:03:16.239><c> example</c><00:03:16.959><c> the</c><00:03:17.120><c> three</c><00:03:17.519><c> gina</c><00:03:17.840><c> hello</c><00:03:18.080><c> world</c>
+
+00:03:18.309 --> 00:03:18.319 align:start position:0%
+for example the three gina hello world
+ 
+
+00:03:18.319 --> 00:03:20.470 align:start position:0%
+for example the three gina hello world
+demos<00:03:18.800><c> can</c><00:03:18.959><c> be</c><00:03:19.120><c> called</c><00:03:19.440><c> as</c><00:03:19.599><c> the</c><00:03:19.760><c> three</c><00:03:20.080><c> gina</c>
+
+00:03:20.470 --> 00:03:20.480 align:start position:0%
+demos can be called as the three gina
+ 
+
+00:03:20.480 --> 00:03:21.110 align:start position:0%
+demos can be called as the three gina
+apps
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+apps
+ 
+
+00:03:21.120 --> 00:03:23.509 align:start position:0%
+apps
+as<00:03:21.280><c> they</c><00:03:21.519><c> deliver</c><00:03:21.920><c> the</c><00:03:22.080><c> full</c><00:03:22.400><c> user</c><00:03:22.800><c> journey</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+as they deliver the full user journey
+ 
+
+00:03:23.519 --> 00:03:24.630 align:start position:0%
+as they deliver the full user journey
+from<00:03:23.840><c> indexing</c>
+
+00:03:24.630 --> 00:03:24.640 align:start position:0%
+from indexing
+ 
+
+00:03:24.640 --> 00:03:28.390 align:start position:0%
+from indexing
+to<00:03:24.879><c> searching</c><00:03:26.480><c> a</c><00:03:26.640><c> typical</c><00:03:27.040><c> gina</c><00:03:27.440><c> app</c><00:03:27.680><c> project</c>
+
+00:03:28.390 --> 00:03:28.400 align:start position:0%
+to searching a typical gina app project
+ 
+
+00:03:28.400 --> 00:03:31.430 align:start position:0%
+to searching a typical gina app project
+contains<00:03:28.959><c> two</c><00:03:29.200><c> types</c><00:03:29.519><c> of</c><00:03:29.760><c> sales</c><00:03:30.080><c> files</c><00:03:31.040><c> python</c>
+
+00:03:31.430 --> 00:03:31.440 align:start position:0%
+contains two types of sales files python
+ 
+
+00:03:31.440 --> 00:03:31.990 align:start position:0%
+contains two types of sales files python
+code
+
+00:03:31.990 --> 00:03:32.000 align:start position:0%
+code
+ 
+
+00:03:32.000 --> 00:03:34.949 align:start position:0%
+code
+and<00:03:32.159><c> yamlconfig</c><00:03:33.680><c> the</c><00:03:33.920><c> python</c><00:03:34.319><c> file</c><00:03:34.560><c> defines</c>
+
+00:03:34.949 --> 00:03:34.959 align:start position:0%
+and yamlconfig the python file defines
+ 
+
+00:03:34.959 --> 00:03:35.910 align:start position:0%
+and yamlconfig the python file defines
+the<00:03:35.120><c> entrance</c><00:03:35.519><c> point</c>
+
+00:03:35.910 --> 00:03:35.920 align:start position:0%
+the entrance point
+ 
+
+00:03:35.920 --> 00:03:38.550 align:start position:0%
+the entrance point
+as<00:03:36.080><c> a</c><00:03:36.159><c> customized</c><00:03:36.799><c> logic</c><00:03:37.680><c> the</c><00:03:37.840><c> yammer</c><00:03:38.159><c> config</c>
+
+00:03:38.550 --> 00:03:38.560 align:start position:0%
+as a customized logic the yammer config
+ 
+
+00:03:38.560 --> 00:03:40.149 align:start position:0%
+as a customized logic the yammer config
+defines<00:03:38.879><c> a</c><00:03:38.959><c> flow</c><00:03:39.280><c> composition</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+defines a flow composition
+ 
+
+00:03:40.159 --> 00:03:43.670 align:start position:0%
+defines a flow composition
+as<00:03:40.319><c> a</c><00:03:40.400><c> configuration</c><00:03:41.360><c> of</c><00:03:41.519><c> each</c><00:03:41.840><c> executor</c>
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+as a configuration of each executor
+ 
+
+00:03:43.680 --> 00:03:46.710 align:start position:0%
+as a configuration of each executor
+flow<00:03:44.159><c> is</c><00:03:44.319><c> a</c><00:03:44.400><c> high</c><00:03:44.640><c> level</c><00:03:44.959><c> concept</c><00:03:45.440><c> in</c><00:03:45.599><c> gina</c><00:03:46.480><c> it</c>
+
+00:03:46.710 --> 00:03:46.720 align:start position:0%
+flow is a high level concept in gina it
+ 
+
+00:03:46.720 --> 00:03:48.630 align:start position:0%
+flow is a high level concept in gina it
+represents<00:03:47.280><c> a</c><00:03:47.360><c> sequence</c><00:03:47.840><c> of</c><00:03:48.000><c> steps</c><00:03:48.400><c> for</c>
+
+00:03:48.630 --> 00:03:48.640 align:start position:0%
+represents a sequence of steps for
+ 
+
+00:03:48.640 --> 00:03:51.110 align:start position:0%
+represents a sequence of steps for
+accomplishing<00:03:49.360><c> a</c><00:03:49.519><c> task</c>
+
+00:03:51.110 --> 00:03:51.120 align:start position:0%
+accomplishing a task
+ 
+
+00:03:51.120 --> 00:03:53.830 align:start position:0%
+accomplishing a task
+if<00:03:51.360><c> you</c><00:03:51.519><c> have</c><00:03:51.760><c> read</c><00:03:52.080><c> and</c><00:03:52.159><c> read</c><00:03:52.480><c> me</c><00:03:52.720><c> on</c><00:03:52.959><c> github</c>
+
+00:03:53.830 --> 00:03:53.840 align:start position:0%
+if you have read and read me on github
+ 
+
+00:03:53.840 --> 00:03:55.910 align:start position:0%
+if you have read and read me on github
+then<00:03:54.080><c> from</c><00:03:54.319><c> gina</c><00:03:54.720><c> import</c><00:03:55.040><c> flow</c><00:03:55.360><c> is</c><00:03:55.519><c> probably</c>
+
+00:03:55.910 --> 00:03:55.920 align:start position:0%
+then from gina import flow is probably
+ 
+
+00:03:55.920 --> 00:03:58.470 align:start position:0%
+then from gina import flow is probably
+the<00:03:56.080><c> first</c><00:03:56.319><c> thing</c><00:03:56.640><c> that</c><00:03:56.799><c> you</c><00:03:57.040><c> learned</c>
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+the first thing that you learned
+ 
+
+00:03:58.480 --> 00:04:01.110 align:start position:0%
+the first thing that you learned
+you<00:03:58.640><c> can</c><00:03:58.799><c> add</c><00:03:59.120><c> logic</c><00:03:59.680><c> to</c><00:03:59.840><c> the</c><00:04:00.000><c> flow</c><00:04:00.400><c> by</c><00:04:00.640><c> using</c>
+
+00:04:01.110 --> 00:04:01.120 align:start position:0%
+you can add logic to the flow by using
+ 
+
+00:04:01.120 --> 00:04:02.550 align:start position:0%
+you can add logic to the flow by using
+add<00:04:01.439><c> message</c>
+
+00:04:02.550 --> 00:04:02.560 align:start position:0%
+add message
+ 
+
+00:04:02.560 --> 00:04:04.710 align:start position:0%
+add message
+create<00:04:02.959><c> parallelization</c><00:04:03.760><c> using</c><00:04:04.239><c> needs</c>
+
+00:04:04.710 --> 00:04:04.720 align:start position:0%
+create parallelization using needs
+ 
+
+00:04:04.720 --> 00:04:06.390 align:start position:0%
+create parallelization using needs
+method
+
+00:04:06.390 --> 00:04:06.400 align:start position:0%
+method
+ 
+
+00:04:06.400 --> 00:04:08.869 align:start position:0%
+method
+once<00:04:06.720><c> the</c><00:04:06.879><c> flow</c><00:04:07.200><c> is</c><00:04:07.360><c> built</c><00:04:07.920><c> you</c><00:04:08.080><c> can</c><00:04:08.319><c> open</c><00:04:08.640><c> it</c>
+
+00:04:08.869 --> 00:04:08.879 align:start position:0%
+once the flow is built you can open it
+ 
+
+00:04:08.879 --> 00:04:10.869 align:start position:0%
+once the flow is built you can open it
+like<00:04:09.120><c> open</c><00:04:09.439><c> a</c><00:04:09.599><c> file</c><00:04:10.000><c> in</c><00:04:10.159><c> python</c>
+
+00:04:10.869 --> 00:04:10.879 align:start position:0%
+like open a file in python
+ 
+
+00:04:10.879 --> 00:04:14.869 align:start position:0%
+like open a file in python
+and<00:04:11.120><c> then</c><00:04:11.360><c> fit</c><00:04:11.599><c> data</c><00:04:12.080><c> to</c><00:04:12.840><c> it</c><00:04:13.920><c> ginaflow</c><00:04:14.640><c> is</c>
+
+00:04:14.869 --> 00:04:14.879 align:start position:0%
+and then fit data to it ginaflow is
+ 
+
+00:04:14.879 --> 00:04:16.150 align:start position:0%
+and then fit data to it ginaflow is
+fully<00:04:15.200><c> decentralized</c>
+
+00:04:16.150 --> 00:04:16.160 align:start position:0%
+fully decentralized
+ 
+
+00:04:16.160 --> 00:04:18.229 align:start position:0%
+fully decentralized
+and<00:04:16.320><c> can</c><00:04:16.560><c> be</c><00:04:16.720><c> fully</c><00:04:17.120><c> distributed</c><00:04:17.919><c> on</c><00:04:18.079><c> the</c>
+
+00:04:18.229 --> 00:04:18.239 align:start position:0%
+and can be fully distributed on the
+ 
+
+00:04:18.239 --> 00:04:20.710 align:start position:0%
+and can be fully distributed on the
+cloud<00:04:19.120><c> you</c><00:04:19.280><c> can</c><00:04:19.519><c> simply</c><00:04:19.840><c> distribute</c><00:04:20.400><c> a</c><00:04:20.479><c> part</c>
+
+00:04:20.710 --> 00:04:20.720 align:start position:0%
+cloud you can simply distribute a part
+ 
+
+00:04:20.720 --> 00:04:21.509 align:start position:0%
+cloud you can simply distribute a part
+of<00:04:20.880><c> the</c><00:04:21.040><c> flow</c>
+
+00:04:21.509 --> 00:04:21.519 align:start position:0%
+of the flow
+ 
+
+00:04:21.519 --> 00:04:24.310 align:start position:0%
+of the flow
+by<00:04:21.680><c> setting</c><00:04:22.160><c> host</c><00:04:22.639><c> to</c><00:04:22.800><c> a</c><00:04:22.960><c> remote</c><00:04:23.360><c> address</c><00:04:24.160><c> you</c>
+
+00:04:24.310 --> 00:04:24.320 align:start position:0%
+by setting host to a remote address you
+ 
+
+00:04:24.320 --> 00:04:26.390 align:start position:0%
+by setting host to a remote address you
+can<00:04:24.560><c> also</c><00:04:24.800><c> containerize</c><00:04:25.680><c> a</c><00:04:25.759><c> flow</c>
+
+00:04:26.390 --> 00:04:26.400 align:start position:0%
+can also containerize a flow
+ 
+
+00:04:26.400 --> 00:04:29.990 align:start position:0%
+can also containerize a flow
+either<00:04:26.880><c> partially</c><00:04:27.600><c> or</c><00:04:27.840><c> completely</c>
+
+00:04:29.990 --> 00:04:30.000 align:start position:0%
+either partially or completely
+ 
+
+00:04:30.000 --> 00:04:32.390 align:start position:0%
+either partially or completely
+besides<00:04:30.479><c> building</c><00:04:30.800><c> a</c><00:04:30.960><c> flow</c><00:04:31.280><c> from</c><00:04:31.600><c> python</c><00:04:32.240><c> you</c>
+
+00:04:32.390 --> 00:04:32.400 align:start position:0%
+besides building a flow from python you
+ 
+
+00:04:32.400 --> 00:04:35.350 align:start position:0%
+besides building a flow from python you
+can<00:04:32.560><c> also</c><00:04:32.800><c> build</c><00:04:33.040><c> a</c><00:04:33.120><c> flow</c><00:04:33.440><c> from</c><00:04:33.680><c> a</c><00:04:33.759><c> yama</c><00:04:34.080><c> config</c>
+
+00:04:35.350 --> 00:04:35.360 align:start position:0%
+can also build a flow from a yama config
+ 
+
+00:04:35.360 --> 00:04:37.189 align:start position:0%
+can also build a flow from a yama config
+this<00:04:35.600><c> creates</c><00:04:36.000><c> a</c><00:04:36.080><c> separation</c><00:04:36.720><c> between</c><00:04:37.040><c> the</c>
+
+00:04:37.189 --> 00:04:37.199 align:start position:0%
+this creates a separation between the
+ 
+
+00:04:37.199 --> 00:04:39.350 align:start position:0%
+this creates a separation between the
+code<00:04:37.520><c> base</c><00:04:37.919><c> and</c><00:04:38.080><c> the</c><00:04:38.160><c> configuration</c>
+
+00:04:39.350 --> 00:04:39.360 align:start position:0%
+code base and the configuration
+ 
+
+00:04:39.360 --> 00:04:41.430 align:start position:0%
+code base and the configuration
+which<00:04:39.600><c> could</c><00:04:39.840><c> be</c><00:04:40.000><c> extremely</c><00:04:40.639><c> useful</c><00:04:41.199><c> when</c>
+
+00:04:41.430 --> 00:04:41.440 align:start position:0%
+which could be extremely useful when
+ 
+
+00:04:41.440 --> 00:04:42.390 align:start position:0%
+which could be extremely useful when
+conducting<00:04:42.000><c> a</c><00:04:42.160><c> b</c>
+
+00:04:42.390 --> 00:04:42.400 align:start position:0%
+conducting a b
+ 
+
+00:04:42.400 --> 00:04:45.590 align:start position:0%
+conducting a b
+test<00:04:45.199><c> part</c>
+
+00:04:45.590 --> 00:04:45.600 align:start position:0%
+test part
+ 
+
+00:04:45.600 --> 00:04:47.350 align:start position:0%
+test part
+is<00:04:45.680><c> a</c><00:04:45.840><c> cloud</c><00:04:46.080><c> native</c><00:04:46.479><c> container</c><00:04:47.040><c> for</c><00:04:47.199><c> the</c>
+
+00:04:47.350 --> 00:04:47.360 align:start position:0%
+is a cloud native container for the
+ 
+
+00:04:47.360 --> 00:04:49.030 align:start position:0%
+is a cloud native container for the
+algorithm
+
+00:04:49.030 --> 00:04:49.040 align:start position:0%
+algorithm
+ 
+
+00:04:49.040 --> 00:04:52.070 align:start position:0%
+algorithm
+it<00:04:49.199><c> is</c><00:04:49.360><c> also</c><00:04:49.680><c> the</c><00:04:49.840><c> basic</c><00:04:50.240><c> unit</c><00:04:50.720><c> in</c><00:04:50.800><c> the</c><00:04:50.960><c> flow</c><00:04:51.840><c> so</c>
+
+00:04:52.070 --> 00:04:52.080 align:start position:0%
+it is also the basic unit in the flow so
+ 
+
+00:04:52.080 --> 00:04:54.310 align:start position:0%
+it is also the basic unit in the flow so
+when<00:04:52.240><c> you</c><00:04:52.479><c> code</c><00:04:52.800><c> flow.add</c><00:04:53.680><c> message</c>
+
+00:04:54.310 --> 00:04:54.320 align:start position:0%
+when you code flow.add message
+ 
+
+00:04:54.320 --> 00:04:56.230 align:start position:0%
+when you code flow.add message
+you<00:04:54.560><c> are</c><00:04:54.639><c> basically</c><00:04:55.120><c> adding</c><00:04:55.520><c> parts</c><00:04:55.919><c> to</c><00:04:56.080><c> the</c>
+
+00:04:56.230 --> 00:04:56.240 align:start position:0%
+you are basically adding parts to the
+ 
+
+00:04:56.240 --> 00:04:57.830 align:start position:0%
+you are basically adding parts to the
+flow
+
+00:04:57.830 --> 00:04:57.840 align:start position:0%
+flow
+ 
+
+00:04:57.840 --> 00:04:59.670 align:start position:0%
+flow
+part<00:04:58.160><c> allows</c><00:04:58.560><c> you</c><00:04:58.720><c> to</c><00:04:58.880><c> customize</c><00:04:59.440><c> its</c>
+
+00:04:59.670 --> 00:04:59.680 align:start position:0%
+part allows you to customize its
+ 
+
+00:04:59.680 --> 00:05:01.350 align:start position:0%
+part allows you to customize its
+behavior<00:05:00.240><c> on</c><00:05:00.400><c> the</c><00:05:00.560><c> cloud</c>
+
+00:05:01.350 --> 00:05:01.360 align:start position:0%
+behavior on the cloud
+ 
+
+00:05:01.360 --> 00:05:03.909 align:start position:0%
+behavior on the cloud
+it<00:05:01.600><c> offers</c><00:05:02.000><c> features</c><00:05:02.400><c> such</c><00:05:02.639><c> as</c><00:05:02.800><c> scaling</c><00:05:03.520><c> smart</c>
+
+00:05:03.909 --> 00:05:03.919 align:start position:0%
+it offers features such as scaling smart
+ 
+
+00:05:03.919 --> 00:05:04.629 align:start position:0%
+it offers features such as scaling smart
+routing
+
+00:05:04.629 --> 00:05:04.639 align:start position:0%
+routing
+ 
+
+00:05:04.639 --> 00:05:08.830 align:start position:0%
+routing
+decentralizing<00:05:06.000><c> parallelization</c><00:05:07.039><c> and</c>
+
+00:05:08.830 --> 00:05:08.840 align:start position:0%
+decentralizing parallelization and
+ 
+
+00:05:08.840 --> 00:05:10.550 align:start position:0%
+decentralizing parallelization and
+containerization
+
+00:05:10.550 --> 00:05:10.560 align:start position:0%
+containerization
+ 
+
+00:05:10.560 --> 00:05:12.550 align:start position:0%
+containerization
+when<00:05:10.800><c> you</c><00:05:10.960><c> visualize</c><00:05:11.520><c> a</c><00:05:11.600><c> flow</c><00:05:11.919><c> in</c><00:05:12.080><c> jupiter</c>
+
+00:05:12.550 --> 00:05:12.560 align:start position:0%
+when you visualize a flow in jupiter
+ 
+
+00:05:12.560 --> 00:05:14.230 align:start position:0%
+when you visualize a flow in jupiter
+notebook<00:05:13.039><c> or</c><00:05:13.199><c> google</c><00:05:13.520><c> collab</c>
+
+00:05:14.230 --> 00:05:14.240 align:start position:0%
+notebook or google collab
+ 
+
+00:05:14.240 --> 00:05:16.230 align:start position:0%
+notebook or google collab
+each<00:05:14.479><c> block</c><00:05:14.880><c> in</c><00:05:14.960><c> the</c><00:05:15.120><c> graph</c><00:05:15.520><c> is</c><00:05:15.680><c> basically</c><00:05:16.080><c> a</c>
+
+00:05:16.230 --> 00:05:16.240 align:start position:0%
+each block in the graph is basically a
+ 
+
+00:05:16.240 --> 00:05:18.870 align:start position:0%
+each block in the graph is basically a
+part
+
+00:05:18.870 --> 00:05:18.880 align:start position:0%
+ 
+ 
+
+00:05:18.880 --> 00:05:21.909 align:start position:0%
+ 
+executor<00:05:19.680><c> is</c><00:05:19.840><c> algorithm</c><00:05:20.400><c> unit</c><00:05:20.800><c> in</c><00:05:20.960><c> gina</c><00:05:21.759><c> if</c>
+
+00:05:21.909 --> 00:05:21.919 align:start position:0%
+executor is algorithm unit in gina if
+ 
+
+00:05:21.919 --> 00:05:23.590 align:start position:0%
+executor is algorithm unit in gina if
+you<00:05:22.080><c> are</c><00:05:22.160><c> a</c><00:05:22.240><c> machine</c><00:05:22.639><c> learning</c><00:05:22.960><c> engineer</c><00:05:23.440><c> or</c>
+
+00:05:23.590 --> 00:05:23.600 align:start position:0%
+you are a machine learning engineer or
+ 
+
+00:05:23.600 --> 00:05:24.469 align:start position:0%
+you are a machine learning engineer or
+researcher
+
+00:05:24.469 --> 00:05:24.479 align:start position:0%
+researcher
+ 
+
+00:05:24.479 --> 00:05:26.469 align:start position:0%
+researcher
+this<00:05:24.639><c> will</c><00:05:24.880><c> be</c><00:05:25.039><c> the</c><00:05:25.199><c> main</c><00:05:25.520><c> interface</c><00:05:26.160><c> you</c><00:05:26.320><c> want</c>
+
+00:05:26.469 --> 00:05:26.479 align:start position:0%
+this will be the main interface you want
+ 
+
+00:05:26.479 --> 00:05:28.230 align:start position:0%
+this will be the main interface you want
+to<00:05:26.639><c> work</c><00:05:26.880><c> with</c>
+
+00:05:28.230 --> 00:05:28.240 align:start position:0%
+to work with
+ 
+
+00:05:28.240 --> 00:05:30.629 align:start position:0%
+to work with
+in<00:05:28.479><c> gina</c><00:05:28.880><c> we</c><00:05:29.120><c> have</c><00:05:29.280><c> provided</c><00:05:30.000><c> hundreds</c><00:05:30.479><c> of</c>
+
+00:05:30.629 --> 00:05:30.639 align:start position:0%
+in gina we have provided hundreds of
+ 
+
+00:05:30.639 --> 00:05:31.270 align:start position:0%
+in gina we have provided hundreds of
+classic
+
+00:05:31.270 --> 00:05:31.280 align:start position:0%
+classic
+ 
+
+00:05:31.280 --> 00:05:33.990 align:start position:0%
+classic
+and<00:05:31.360><c> state-of-the-art</c><00:05:32.320><c> executors</c><00:05:33.440><c> covering</c>
+
+00:05:33.990 --> 00:05:34.000 align:start position:0%
+and state-of-the-art executors covering
+ 
+
+00:05:34.000 --> 00:05:34.390 align:start position:0%
+and state-of-the-art executors covering
+pre
+
+00:05:34.390 --> 00:05:34.400 align:start position:0%
+pre
+ 
+
+00:05:34.400 --> 00:05:37.510 align:start position:0%
+pre
+and<00:05:34.560><c> post-processing</c><00:05:35.840><c> indexing</c><00:05:36.639><c> ranking</c><00:05:37.280><c> and</c>
+
+00:05:37.510 --> 00:05:37.520 align:start position:0%
+and post-processing indexing ranking and
+ 
+
+00:05:37.520 --> 00:05:39.749 align:start position:0%
+and post-processing indexing ranking and
+encoding
+
+00:05:39.749 --> 00:05:39.759 align:start position:0%
+encoding
+ 
+
+00:05:39.759 --> 00:05:41.830 align:start position:0%
+encoding
+these<00:05:40.080><c> executors</c><00:05:40.880><c> are</c><00:05:40.960><c> put</c><00:05:41.199><c> into</c><00:05:41.440><c> different</c>
+
+00:05:41.830 --> 00:05:41.840 align:start position:0%
+these executors are put into different
+ 
+
+00:05:41.840 --> 00:05:43.189 align:start position:0%
+these executors are put into different
+subclasses
+
+00:05:43.189 --> 00:05:43.199 align:start position:0%
+subclasses
+ 
+
+00:05:43.199 --> 00:05:46.390 align:start position:0%
+subclasses
+namely<00:05:44.160><c> segmenter</c><00:05:45.280><c> ranker</c>
+
+00:05:46.390 --> 00:05:46.400 align:start position:0%
+namely segmenter ranker
+ 
+
+00:05:46.400 --> 00:05:49.909 align:start position:0%
+namely segmenter ranker
+encoder<00:05:47.520><c> crafter</c><00:05:48.560><c> classifier</c>
+
+00:05:49.909 --> 00:05:49.919 align:start position:0%
+encoder crafter classifier
+ 
+
+00:05:49.919 --> 00:05:53.029 align:start position:0%
+encoder crafter classifier
+indexer<00:05:51.120><c> and</c><00:05:51.440><c> evaluator</c>
+
+00:05:53.029 --> 00:05:53.039 align:start position:0%
+indexer and evaluator
+ 
+
+00:05:53.039 --> 00:05:56.950 align:start position:0%
+indexer and evaluator
+but<00:05:53.199><c> they</c><00:05:53.440><c> all</c><00:05:53.680><c> come</c><00:05:53.840><c> from</c><00:05:54.080><c> the</c><00:05:54.240><c> same</c><00:05:54.560><c> parent</c>
+
+00:05:56.950 --> 00:05:56.960 align:start position:0%
+but they all come from the same parent
+ 
+
+00:05:56.960 --> 00:05:59.029 align:start position:0%
+but they all come from the same parent
+if<00:05:57.120><c> you</c><00:05:57.280><c> want</c><00:05:57.440><c> to</c><00:05:57.680><c> introduce</c><00:05:58.160><c> new</c><00:05:58.479><c> algorithm</c>
+
+00:05:59.029 --> 00:05:59.039 align:start position:0%
+if you want to introduce new algorithm
+ 
+
+00:05:59.039 --> 00:06:01.430 align:start position:0%
+if you want to introduce new algorithm
+to<00:05:59.280><c> gina</c><00:05:59.919><c> you</c><00:06:00.080><c> can</c><00:06:00.319><c> simply</c><00:06:00.639><c> create</c><00:06:00.960><c> a</c><00:06:01.120><c> new</c>
+
+00:06:01.430 --> 00:06:01.440 align:start position:0%
+to gina you can simply create a new
+ 
+
+00:06:01.440 --> 00:06:02.550 align:start position:0%
+to gina you can simply create a new
+executor<00:06:02.160><c> class</c>
+
+00:06:02.550 --> 00:06:02.560 align:start position:0%
+executor class
+ 
+
+00:06:02.560 --> 00:06:04.830 align:start position:0%
+executor class
+by<00:06:02.880><c> inheriting</c><00:06:03.520><c> from</c><00:06:03.759><c> the</c><00:06:03.919><c> existing</c>
+
+00:06:04.830 --> 00:06:04.840 align:start position:0%
+by inheriting from the existing
+ 
+
+00:06:04.840 --> 00:06:06.950 align:start position:0%
+by inheriting from the existing
+executors
+
+00:06:06.950 --> 00:06:06.960 align:start position:0%
+executors
+ 
+
+00:06:06.960 --> 00:06:08.950 align:start position:0%
+executors
+and<00:06:07.199><c> without</c><00:06:07.600><c> worrying</c><00:06:08.080><c> too</c><00:06:08.240><c> much</c><00:06:08.560><c> about</c><00:06:08.800><c> the</c>
+
+00:06:08.950 --> 00:06:08.960 align:start position:0%
+and without worrying too much about the
+ 
+
+00:06:08.960 --> 00:06:10.070 align:start position:0%
+and without worrying too much about the
+global<00:06:09.360><c> picture</c>
+
+00:06:10.070 --> 00:06:10.080 align:start position:0%
+global picture
+ 
+
+00:06:10.080 --> 00:06:12.550 align:start position:0%
+global picture
+you<00:06:10.240><c> can</c><00:06:10.400><c> stay</c><00:06:10.800><c> very</c><00:06:11.199><c> focused</c><00:06:11.759><c> on</c><00:06:12.000><c> writing</c><00:06:12.400><c> the</c>
+
+00:06:12.550 --> 00:06:12.560 align:start position:0%
+you can stay very focused on writing the
+ 
+
+00:06:12.560 --> 00:06:14.390 align:start position:0%
+you can stay very focused on writing the
+algorithm<00:06:13.199><c> itself</c>
+
+00:06:14.390 --> 00:06:14.400 align:start position:0%
+algorithm itself
+ 
+
+00:06:14.400 --> 00:06:17.350 align:start position:0%
+algorithm itself
+given<00:06:14.720><c> the</c><00:06:14.960><c> input</c><00:06:15.600><c> define</c><00:06:16.000><c> your</c><00:06:16.240><c> own</c><00:06:16.479><c> logic</c><00:06:17.199><c> to</c>
+
+00:06:17.350 --> 00:06:17.360 align:start position:0%
+given the input define your own logic to
+ 
+
+00:06:17.360 --> 00:06:19.430 align:start position:0%
+given the input define your own logic to
+generate<00:06:17.759><c> the</c><00:06:17.919><c> expected</c><00:06:18.560><c> output</c>
+
+00:06:19.430 --> 00:06:19.440 align:start position:0%
+generate the expected output
+ 
+
+00:06:19.440 --> 00:06:21.670 align:start position:0%
+generate the expected output
+just<00:06:19.840><c> like</c><00:06:20.160><c> when</c><00:06:20.400><c> you</c><00:06:20.560><c> write</c><00:06:20.880><c> standard</c><00:06:21.360><c> load</c>
+
+00:06:21.670 --> 00:06:21.680 align:start position:0%
+just like when you write standard load
+ 
+
+00:06:21.680 --> 00:06:25.110 align:start position:0%
+just like when you write standard load
+numpy<00:06:22.240><c> or</c><00:06:22.400><c> tensorflow</c><00:06:23.039><c> code</c>
+
+00:06:25.110 --> 00:06:25.120 align:start position:0%
+numpy or tensorflow code
+ 
+
+00:06:25.120 --> 00:06:27.270 align:start position:0%
+numpy or tensorflow code
+driver<00:06:25.680><c> is</c><00:06:25.840><c> a</c><00:06:25.919><c> translation</c><00:06:26.560><c> layer</c><00:06:26.880><c> between</c>
+
+00:06:27.270 --> 00:06:27.280 align:start position:0%
+driver is a translation layer between
+ 
+
+00:06:27.280 --> 00:06:28.550 align:start position:0%
+driver is a translation layer between
+gina<00:06:27.680><c> data</c><00:06:28.000><c> type</c>
+
+00:06:28.550 --> 00:06:28.560 align:start position:0%
+gina data type
+ 
+
+00:06:28.560 --> 00:06:32.150 align:start position:0%
+gina data type
+and<00:06:28.800><c> python</c><00:06:29.280><c> or</c><00:06:29.440><c> non-pi</c><00:06:29.919><c> data</c><00:06:30.319><c> type</c>
+
+00:06:32.150 --> 00:06:32.160 align:start position:0%
+and python or non-pi data type
+ 
+
+00:06:32.160 --> 00:06:34.550 align:start position:0%
+and python or non-pi data type
+it<00:06:32.319><c> makes</c><00:06:32.560><c> the</c><00:06:32.720><c> executor</c><00:06:33.440><c> agnostic</c><00:06:34.080><c> to</c><00:06:34.240><c> data</c>
+
+00:06:34.550 --> 00:06:34.560 align:start position:0%
+it makes the executor agnostic to data
+ 
+
+00:06:34.560 --> 00:06:35.350 align:start position:0%
+it makes the executor agnostic to data
+type<00:06:35.039><c> and</c>
+
+00:06:35.350 --> 00:06:35.360 align:start position:0%
+type and
+ 
+
+00:06:35.360 --> 00:06:38.550 align:start position:0%
+type and
+network<00:06:37.280><c> without</c><00:06:37.680><c> the</c><00:06:37.840><c> driver</c>
+
+00:06:38.550 --> 00:06:38.560 align:start position:0%
+network without the driver
+ 
+
+00:06:38.560 --> 00:06:40.870 align:start position:0%
+network without the driver
+you<00:06:38.720><c> will</c><00:06:38.880><c> need</c><00:06:39.039><c> to</c><00:06:39.199><c> convert</c><00:06:39.840><c> pass</c><00:06:40.240><c> extract</c>
+
+00:06:40.870 --> 00:06:40.880 align:start position:0%
+you will need to convert pass extract
+ 
+
+00:06:40.880 --> 00:06:42.790 align:start position:0%
+you will need to convert pass extract
+back<00:06:41.199><c> and</c><00:06:41.360><c> forth</c><00:06:41.680><c> between</c><00:06:42.000><c> the</c><00:06:42.160><c> genera</c><00:06:42.479><c> data</c>
+
+00:06:42.790 --> 00:06:42.800 align:start position:0%
+back and forth between the genera data
+ 
+
+00:06:42.800 --> 00:06:43.189 align:start position:0%
+back and forth between the genera data
+type
+
+00:06:43.189 --> 00:06:43.199 align:start position:0%
+type
+ 
+
+00:06:43.199 --> 00:06:46.230 align:start position:0%
+type
+and<00:06:43.280><c> the</c><00:06:43.440><c> numpy</c><00:06:43.919><c> data</c><00:06:44.240><c> type</c>
+
+00:06:46.230 --> 00:06:46.240 align:start position:0%
+and the numpy data type
+ 
+
+00:06:46.240 --> 00:06:48.309 align:start position:0%
+and the numpy data type
+you<00:06:46.400><c> can</c><00:06:46.560><c> define</c><00:06:46.880><c> the</c><00:06:47.039><c> executor's</c><00:06:47.759><c> behavior</c>
+
+00:06:48.309 --> 00:06:48.319 align:start position:0%
+you can define the executor's behavior
+ 
+
+00:06:48.319 --> 00:06:49.830 align:start position:0%
+you can define the executor's behavior
+under<00:06:48.639><c> the</c><00:06:48.800><c> network</c><00:06:49.199><c> request</c>
+
+00:06:49.830 --> 00:06:49.840 align:start position:0%
+under the network request
+ 
+
+00:06:49.840 --> 00:06:52.950 align:start position:0%
+under the network request
+using<00:06:50.160><c> drivers</c><00:06:51.520><c> it</c><00:06:51.759><c> basically</c><00:06:52.240><c> says</c>
+
+00:06:52.950 --> 00:06:52.960 align:start position:0%
+using drivers it basically says
+ 
+
+00:06:52.960 --> 00:06:55.189 align:start position:0%
+using drivers it basically says
+while<00:06:53.199><c> receiving</c><00:06:53.759><c> request</c><00:06:54.240><c> x</c><00:06:54.639><c> please</c><00:06:54.960><c> call</c>
+
+00:06:55.189 --> 00:06:55.199 align:start position:0%
+while receiving request x please call
+ 
+
+00:06:55.199 --> 00:06:57.830 align:start position:0%
+while receiving request x please call
+the<00:06:55.360><c> executor</c><00:06:56.000><c> and</c><00:06:56.160><c> do</c><00:06:56.400><c> y</c>
+
+00:06:57.830 --> 00:06:57.840 align:start position:0%
+the executor and do y
+ 
+
+00:06:57.840 --> 00:06:59.749 align:start position:0%
+the executor and do y
+you<00:06:58.000><c> may</c><00:06:58.240><c> wonder</c><00:06:58.720><c> how</c><00:06:58.880><c> can</c><00:06:59.039><c> your</c><00:06:59.280><c> algorithm</c>
+
+00:06:59.749 --> 00:06:59.759 align:start position:0%
+you may wonder how can your algorithm
+ 
+
+00:06:59.759 --> 00:07:03.110 align:start position:0%
+you may wonder how can your algorithm
+directly<00:07:00.319><c> handle</c><00:07:00.720><c> the</c><00:07:00.880><c> request</c><00:07:01.360><c> accident</c>
+
+00:07:03.110 --> 00:07:03.120 align:start position:0%
+directly handle the request accident
+ 
+
+00:07:03.120 --> 00:07:05.909 align:start position:0%
+directly handle the request accident
+that's<00:07:03.520><c> exactly</c><00:07:04.160><c> the</c><00:07:04.319><c> purpose</c><00:07:04.800><c> of</c><00:07:04.880><c> the</c><00:07:05.039><c> driver</c>
+
+00:07:05.909 --> 00:07:05.919 align:start position:0%
+that's exactly the purpose of the driver
+ 
+
+00:07:05.919 --> 00:07:07.589 align:start position:0%
+that's exactly the purpose of the driver
+as<00:07:06.160><c> an</c><00:07:06.319><c> algorithm</c><00:07:06.800><c> developer</c>
+
+00:07:07.589 --> 00:07:07.599 align:start position:0%
+as an algorithm developer
+ 
+
+00:07:07.599 --> 00:07:10.230 align:start position:0%
+as an algorithm developer
+driver<00:07:08.160><c> is</c><00:07:08.400><c> invisible</c><00:07:08.960><c> to</c><00:07:09.120><c> you</c><00:07:09.599><c> and</c><00:07:09.840><c> you</c><00:07:10.000><c> don't</c>
+
+00:07:10.230 --> 00:07:10.240 align:start position:0%
+driver is invisible to you and you don't
+ 
+
+00:07:10.240 --> 00:07:12.230 align:start position:0%
+driver is invisible to you and you don't
+have<00:07:10.400><c> to</c><00:07:10.560><c> worry</c><00:07:10.800><c> about</c><00:07:11.120><c> it</c>
+
+00:07:12.230 --> 00:07:12.240 align:start position:0%
+have to worry about it
+ 
+
+00:07:12.240 --> 00:07:14.710 align:start position:0%
+have to worry about it
+in<00:07:12.479><c> general</c><00:07:13.280><c> executor</c><00:07:13.919><c> and</c><00:07:14.080><c> driver</c><00:07:14.560><c> are</c><00:07:14.639><c> a</c>
+
+00:07:14.710 --> 00:07:14.720 align:start position:0%
+in general executor and driver are a
+ 
+
+00:07:14.720 --> 00:07:15.749 align:start position:0%
+in general executor and driver are a
+good<00:07:14.960><c> couple</c>
+
+00:07:15.749 --> 00:07:15.759 align:start position:0%
+good couple
+ 
+
+00:07:15.759 --> 00:07:17.990 align:start position:0%
+good couple
+they<00:07:16.000><c> work</c><00:07:16.240><c> together</c><00:07:16.880><c> and</c><00:07:17.039><c> serve</c><00:07:17.360><c> as</c><00:07:17.520><c> a</c><00:07:17.599><c> logic</c>
+
+00:07:17.990 --> 00:07:18.000 align:start position:0%
+they work together and serve as a logic
+ 
+
+00:07:18.000 --> 00:07:20.790 align:start position:0%
+they work together and serve as a logic
+layer<00:07:18.479><c> in</c><00:07:18.639><c> gina</c>
+
+00:07:20.790 --> 00:07:20.800 align:start position:0%
+layer in gina
+ 
+
+00:07:20.800 --> 00:07:23.189 align:start position:0%
+layer in gina
+document<00:07:21.520><c> is</c><00:07:21.680><c> a</c><00:07:21.759><c> primitive</c><00:07:22.240><c> data</c><00:07:22.560><c> type</c><00:07:22.960><c> in</c>
+
+00:07:23.189 --> 00:07:23.199 align:start position:0%
+document is a primitive data type in
+ 
+
+00:07:23.199 --> 00:07:23.990 align:start position:0%
+document is a primitive data type in
+gina
+
+00:07:23.990 --> 00:07:24.000 align:start position:0%
+gina
+ 
+
+00:07:24.000 --> 00:07:26.790 align:start position:0%
+gina
+it<00:07:24.160><c> appears</c><00:07:24.800><c> everywhere</c><00:07:25.680><c> from</c><00:07:26.000><c> input</c><00:07:26.479><c> to</c><00:07:26.639><c> the</c>
+
+00:07:26.790 --> 00:07:26.800 align:start position:0%
+it appears everywhere from input to the
+ 
+
+00:07:26.800 --> 00:07:27.670 align:start position:0%
+it appears everywhere from input to the
+output
+
+00:07:27.670 --> 00:07:27.680 align:start position:0%
+output
+ 
+
+00:07:27.680 --> 00:07:30.150 align:start position:0%
+output
+all<00:07:27.919><c> the</c><00:07:28.080><c> way</c><00:07:28.319><c> through</c><00:07:28.639><c> the</c><00:07:28.840><c> flow</c><00:07:29.840><c> you</c><00:07:30.000><c> can</c>
+
+00:07:30.150 --> 00:07:30.160 align:start position:0%
+all the way through the flow you can
+ 
+
+00:07:30.160 --> 00:07:31.909 align:start position:0%
+all the way through the flow you can
+compare<00:07:30.639><c> document</c><00:07:31.120><c> of</c><00:07:31.280><c> gina</c>
+
+00:07:31.909 --> 00:07:31.919 align:start position:0%
+compare document of gina
+ 
+
+00:07:31.919 --> 00:07:35.029 align:start position:0%
+compare document of gina
+to<00:07:32.160><c> nd</c><00:07:32.560><c> array</c><00:07:33.039><c> of</c><00:07:33.199><c> numpy</c><00:07:33.919><c> or</c><00:07:34.160><c> tensor</c><00:07:34.800><c> of</c>
+
+00:07:35.029 --> 00:07:35.039 align:start position:0%
+to nd array of numpy or tensor of
+ 
+
+00:07:35.039 --> 00:07:38.629 align:start position:0%
+to nd array of numpy or tensor of
+tensorflow<00:07:36.880><c> document</c><00:07:37.520><c> is</c><00:07:37.759><c> also</c><00:07:38.000><c> a</c><00:07:38.160><c> powerful</c>
+
+00:07:38.629 --> 00:07:38.639 align:start position:0%
+tensorflow document is also a powerful
+ 
+
+00:07:38.639 --> 00:07:40.950 align:start position:0%
+tensorflow document is also a powerful
+container<00:07:39.280><c> for</c><00:07:39.520><c> multimedia</c><00:07:40.240><c> data</c>
+
+00:07:40.950 --> 00:07:40.960 align:start position:0%
+container for multimedia data
+ 
+
+00:07:40.960 --> 00:07:43.990 align:start position:0%
+container for multimedia data
+you<00:07:41.120><c> can</c><00:07:41.280><c> store</c><00:07:41.680><c> text</c><00:07:42.319><c> image</c><00:07:42.960><c> audio</c><00:07:43.680><c> and</c><00:07:43.840><c> the</c>
+
+00:07:43.990 --> 00:07:44.000 align:start position:0%
+you can store text image audio and the
+ 
+
+00:07:44.000 --> 00:07:44.710 align:start position:0%
+you can store text image audio and the
+array
+
+00:07:44.710 --> 00:07:44.720 align:start position:0%
+array
+ 
+
+00:07:44.720 --> 00:07:47.990 align:start position:0%
+array
+inside<00:07:45.120><c> the</c><00:07:45.280><c> document</c><00:07:46.800><c> genus</c><00:07:47.280><c> document</c><00:07:47.840><c> can</c>
+
+00:07:47.990 --> 00:07:48.000 align:start position:0%
+inside the document genus document can
+ 
+
+00:07:48.000 --> 00:07:48.950 align:start position:0%
+inside the document genus document can
+be<00:07:48.160><c> recursive</c>
+
+00:07:48.950 --> 00:07:48.960 align:start position:0%
+be recursive
+ 
+
+00:07:48.960 --> 00:07:52.390 align:start position:0%
+be recursive
+in<00:07:49.120><c> two</c><00:07:49.360><c> directions</c><00:07:51.520><c> a</c><00:07:51.680><c> document</c>
+
+00:07:52.390 --> 00:07:52.400 align:start position:0%
+in two directions a document
+ 
+
+00:07:52.400 --> 00:07:54.710 align:start position:0%
+in two directions a document
+has<00:07:52.639><c> its</c><00:07:52.879><c> nearest</c><00:07:53.280><c> neighbors</c><00:07:54.000><c> and</c><00:07:54.240><c> neighbors</c>
+
+00:07:54.710 --> 00:07:54.720 align:start position:0%
+has its nearest neighbors and neighbors
+ 
+
+00:07:54.720 --> 00:07:57.589 align:start position:0%
+has its nearest neighbors and neighbors
+can<00:07:54.879><c> have</c><00:07:55.039><c> their</c><00:07:55.280><c> own</c><00:07:55.520><c> nearest</c><00:07:56.000><c> neighbors</c>
+
+00:07:57.589 --> 00:07:57.599 align:start position:0%
+can have their own nearest neighbors
+ 
+
+00:07:57.599 --> 00:08:00.150 align:start position:0%
+can have their own nearest neighbors
+this<00:07:57.840><c> is</c><00:07:58.000><c> considered</c><00:07:58.720><c> as</c><00:07:58.960><c> high</c><00:07:59.280><c> order</c><00:07:59.680><c> matches</c>
+
+00:08:00.150 --> 00:08:00.160 align:start position:0%
+this is considered as high order matches
+ 
+
+00:08:00.160 --> 00:08:02.150 align:start position:0%
+this is considered as high order matches
+in<00:08:00.319><c> gina</c>
+
+00:08:02.150 --> 00:08:02.160 align:start position:0%
+in gina
+ 
+
+00:08:02.160 --> 00:08:04.550 align:start position:0%
+in gina
+on<00:08:02.319><c> the</c><00:08:02.479><c> other</c><00:08:02.800><c> direction</c><00:08:03.599><c> a</c><00:08:03.759><c> document</c><00:08:04.240><c> can</c><00:08:04.400><c> be</c>
+
+00:08:04.550 --> 00:08:04.560 align:start position:0%
+on the other direction a document can be
+ 
+
+00:08:04.560 --> 00:08:06.550 align:start position:0%
+on the other direction a document can be
+divided<00:08:05.039><c> into</c><00:08:05.280><c> sub-documents</c>
+
+00:08:06.550 --> 00:08:06.560 align:start position:0%
+divided into sub-documents
+ 
+
+00:08:06.560 --> 00:08:08.150 align:start position:0%
+divided into sub-documents
+and<00:08:06.639><c> the</c><00:08:06.800><c> sub-document</c><00:08:07.440><c> can</c><00:08:07.599><c> be</c><00:08:07.759><c> further</c>
+
+00:08:08.150 --> 00:08:08.160 align:start position:0%
+and the sub-document can be further
+ 
+
+00:08:08.160 --> 00:08:12.070 align:start position:0%
+and the sub-document can be further
+segmented<00:08:08.879><c> into</c><00:08:09.199><c> finer</c><00:08:10.840><c> granularities</c>
+
+00:08:12.070 --> 00:08:12.080 align:start position:0%
+segmented into finer granularities
+ 
+
+00:08:12.080 --> 00:08:14.070 align:start position:0%
+segmented into finer granularities
+this<00:08:12.400><c> rich</c><00:08:12.720><c> structure</c><00:08:13.360><c> allows</c><00:08:13.680><c> gina</c><00:08:14.000><c> to</c>
+
+00:08:14.070 --> 00:08:14.080 align:start position:0%
+this rich structure allows gina to
+ 
+
+00:08:14.080 --> 00:08:15.670 align:start position:0%
+this rich structure allows gina to
+represent<00:08:14.639><c> complex</c><00:08:15.039><c> document</c>
+
+00:08:15.670 --> 00:08:15.680 align:start position:0%
+represent complex document
+ 
+
+00:08:15.680 --> 00:08:19.510 align:start position:0%
+represent complex document
+with<00:08:16.080><c> hierarchies</c><00:08:16.960><c> and</c><00:08:17.120><c> model</c><00:08:17.440><c> modalities</c>
+
+00:08:19.510 --> 00:08:19.520 align:start position:0%
+with hierarchies and model modalities
+ 
+
+00:08:19.520 --> 00:08:21.589 align:start position:0%
+with hierarchies and model modalities
+i<00:08:19.680><c> hope</c><00:08:19.919><c> this</c><00:08:20.160><c> episode</c><00:08:20.639><c> has</c><00:08:20.960><c> explained</c><00:08:21.360><c> you</c>
+
+00:08:21.589 --> 00:08:21.599 align:start position:0%
+i hope this episode has explained you
+ 
+
+00:08:21.599 --> 00:08:23.749 align:start position:0%
+i hope this episode has explained you
+some<00:08:21.840><c> basic</c><00:08:22.160><c> concepts</c><00:08:22.720><c> in</c><00:08:22.800><c> gina</c>
+
+00:08:23.749 --> 00:08:23.759 align:start position:0%
+some basic concepts in gina
+ 
+
+00:08:23.759 --> 00:08:25.749 align:start position:0%
+some basic concepts in gina
+if<00:08:23.919><c> you</c><00:08:24.000><c> want</c><00:08:24.240><c> to</c><00:08:24.400><c> learn</c><00:08:24.639><c> more</c><00:08:24.879><c> about</c><00:08:25.199><c> gina</c>
+
+00:08:25.749 --> 00:08:25.759 align:start position:0%
+if you want to learn more about gina
+ 
+
+00:08:25.759 --> 00:08:27.749 align:start position:0%
+if you want to learn more about gina
+please<00:08:26.160><c> follow</c><00:08:26.560><c> us</c><00:08:26.800><c> on</c><00:08:26.960><c> github</c>
+
+00:08:27.749 --> 00:08:27.759 align:start position:0%
+please follow us on github
+ 
+
+00:08:27.759 --> 00:08:30.710 align:start position:0%
+please follow us on github
+read<00:08:28.000><c> the</c><00:08:28.160><c> docs</c><00:08:28.639><c> or</c><00:08:28.879><c> join</c><00:08:29.199><c> our</c><00:08:29.360><c> slack</c><00:08:29.680><c> channel</c>
+
+00:08:30.710 --> 00:08:30.720 align:start position:0%
+read the docs or join our slack channel
+ 
+
+00:08:30.720 --> 00:08:31.990 align:start position:0%
+read the docs or join our slack channel
+in<00:08:30.879><c> the</c><00:08:30.960><c> next</c><00:08:31.280><c> episode</c>
+
+00:08:31.990 --> 00:08:32.000 align:start position:0%
+in the next episode
+ 
+
+00:08:32.000 --> 00:08:34.469 align:start position:0%
+in the next episode
+i<00:08:32.080><c> will</c><00:08:32.320><c> talk</c><00:08:32.640><c> more</c><00:08:32.880><c> about</c><00:08:33.120><c> gina</c><00:08:33.519><c> flow</c><00:08:33.760><c> apis</c>
+
+00:08:34.469 --> 00:08:34.479 align:start position:0%
+i will talk more about gina flow apis
+ 
+
+00:08:34.479 --> 00:08:36.070 align:start position:0%
+i will talk more about gina flow apis
+and<00:08:34.640><c> their</c><00:08:34.880><c> usages</c>
+
+00:08:36.070 --> 00:08:36.080 align:start position:0%
+and their usages
+ 
+
+00:08:36.080 --> 00:08:41.670 align:start position:0%
+and their usages
+so<00:08:36.240><c> stay</c><00:08:36.479><c> tuned</c><00:08:36.880><c> and</c><00:08:37.039><c> happy</c><00:08:38.839><c> searching</c>
+
+00:08:41.670 --> 00:08:41.680 align:start position:0%
+so stay tuned and happy searching
+ 
+
+00:08:41.680 --> 00:08:43.760 align:start position:0%
+so stay tuned and happy searching
+you
+
