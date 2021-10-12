@@ -1,5 +1,9 @@
 jtype: Flow
 version: '1'
+with:
+  protocol: 'http'
+  cors: True
+  port_expose: '45678'
 executors:
   - name: encoder
     uses: jinahub://DPRTextEncoder/v0.2
