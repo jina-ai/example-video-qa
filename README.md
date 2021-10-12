@@ -1,5 +1,5 @@
 # example-video-search
-This is an example of search videos using jina
+This is an example of building a video Question-Answer system using Jina.
 
 ## Prerequisites
 
@@ -26,5 +26,8 @@ python app.py -m query
 
 The index flow is as below. The sentences are extracted from the subtitle file. The meta information of the sentences are stored in the `LMDBStorage`. The vectors of the sentences are stored in the `SimpleIndexer`.
 
+![](.github/flow_index.png)
 
 The query flow is as below
+
+![](.github/flow_query.png)
