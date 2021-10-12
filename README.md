@@ -47,6 +47,7 @@ The query flow is as shown below.
 1. The input query is a question which is encoded into embeddings by using `DPRTextEncoder`. 
 2. The embedding of the query question is used to retrieve the sentences from `SimpleIndexer`. 
 3. After retrieving the indexed sentences, we use `MatchExpander` to extend the questions so that the sentences from the neighboring timestamps are considered as candidate sentences as well.
+4. The candidate sentences retrieved from the above steps have no text or meta information. We retrieve the meta information from `LMDBStorage`.
 4. Rank the candidate sentences and extract the exact answers from the sentences by using `DPRReaderRanker`. 
 5. Get the timestamp and video uri information about the answer candidates with `Text2Frame`
 
