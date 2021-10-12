@@ -52,7 +52,7 @@ The query flow is as shown below.
 
 ![](.github/flow_query.png)
 
-## How to index my own data?
+## How to index my own data? [W.I.P.]
 
 1. download the subtitle files
 ```bash
