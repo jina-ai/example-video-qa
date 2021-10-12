@@ -51,3 +51,16 @@ The query flow is as shown below.
 5. Get the timestamp and video uri information about the answer candidates with `Text2Frame`
 
 ![](.github/flow_query.png)
+
+## How to index my own data?
+
+1. download the subtitle files
+```bash
+youtube-dl --write-auto-sub --skip-download https://www.youtube.com/watch\?v\=zvXkQkqd2I8 -o data/zvXkQkqd2I8
+```
+
+2. run the following
+```bash
+python app.py -m index -d data
+python app.py -m query
+```
