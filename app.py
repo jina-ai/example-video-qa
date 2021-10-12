@@ -20,8 +20,12 @@ def index():
             for c in d.chunks:
                 print(f'{c.id}: {c.text}')
 
+
 def query():
-    f = Flow.load_config('flows/query.yml')
+    f = Flow.load_config('flows/query.yml',
+                         override_with={
+                             'protocol': 'grpc',
+                             'cors': False})
     with f:
         resp = f.post(on='/search', inputs=[Document(text='is jina a one-liner?')], return_results=True)
         for d in resp[0].docs:
@@ -30,24 +34,18 @@ def query():
 
 
 def query_restful():
-    f = Flow.load_config('flows/query.yml',
-                         override_with={
-                             'protocol': 'http',
-                             'cors': True,
-                             'port_expose': '45678'})
+    f = Flow.load_config('flows/query.yml')
 
     with f:
         f.block()
 
 
 @click.command()
-@click.option('--mode', '-m', type=click.Choice(['index', 'query', 'query_restful']), default='query')
+@click.option('--mode', '-m', type=click.Choice(['index', 'query']), default='query')
 def main(mode):
     if mode == 'index':
         index()
     elif mode == 'query':
-        query()
-    elif mode == 'query_restful':
         query_restful()
 
 
