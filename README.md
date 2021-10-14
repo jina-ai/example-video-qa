@@ -62,6 +62,11 @@ youtube-dl --write-auto-sub --skip-download https://www.youtube.com/watch\?v\=zv
 
 2. run the following
 ```bash
-python app.py -m index -d data
+python app.py -m index -d self-data --data_dir FOLDER_OF_YOUR_VTTFILES
 python app.py -m query
 ```
+If your folder contains large amount of .vtt files, you could add -n to limit the number of file input, for example:
+```bash
+python app.py -m index -d self-data --data_dir FOLDER_OF_YOUR_VTTFILES -n 10
+```
+In this way you could index the first 10 .vtt files in your folder.
