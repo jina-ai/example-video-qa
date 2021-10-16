@@ -3,3 +3,7 @@ __pycache__/
 toys/
 workspace/
 data/
+
+# node
+node_modules
+.next

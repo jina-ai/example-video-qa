@@ -25,16 +25,23 @@ Query with questions,
 python app.py -m query
 ```
 
-To start the video UI, run the following codes and open `http://localhost:3000/video/` in your browser.
+To run the video search frontend, first set it up locally.
+You should have Node and Yarn installed on your machine.
 
 ```bash
-git clone https://github.com/jina-ai/jina-ui.git
-cd jina-ui
-git checkout showcase-video-search
-yarn install
-yarn jinajs build
-yarn showcases dev
+cd frontend
+yarn
 ```
+This will install the necessary dependencies.
+
+To run the search frontend, run
+
+```bash
+yarn dev
+```
+
+You can see the search frontend at [`http://localhost:3000/`](http://localhost:3000/).
+
 
 ## How it works
 
