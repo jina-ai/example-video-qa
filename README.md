@@ -11,9 +11,22 @@ The index data is subtitle files of YouTube videos. After indexing, you can quer
 pip install -r requirements.txt
 ```
 
+You need to have the Postgres service running at the backend. If you just want to try it our, you can use the psql docker image,
+
+```bash
+docker run -e POSTGRES_PASSWORD=123456  -p 127.0.0.1:5432:5432/tcp postgres:13.2
+```
+
+If you want to keep your data in the psql database,
+
+```bash
+W.I.P.
+```
+
 ### Usage
 
-By default, we index the subtitle file, `toy-data/zvXkQkqd2I8.vtt`
+By default, we index the subtitle file, `toy-data/zvXkQkqd2I8.vtt`.
+
 
 ```bash
 python app.py -m index
