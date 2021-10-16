@@ -11,14 +11,15 @@ executors:
       encoder_type: 'question'
       batch_size: 1
   - name: vec_indexer
-    uses: jinahub://SimpleIndexer/v0.4
+    uses: jinahub://FaissPostgresIndexer/v0.3
     uses_with:
-      match_args:
-        limit: 20
-        traversal_ldarray:
-          - 'r'
-        traversal_rdarray:
-          - 'c'
+      total_shards: 1
+      hostname: '127.0.0.1'
+      port: 5432
+      username: 'postgres'
+      password: '123456'
+      database: 'postgres'
+      table: 'kv_indexer'
   - name: match_extender  # expand the matches with sliding windows
     uses: MatchExtender
     uses_with:
@@ -26,10 +27,15 @@ executors:
     py_module:
       - executors.py
   - name: kv_indexer
-    uses: jinahub://LMDBStorage/v0.1
+    uses: jinahub://PostgreSQLStorage/v0.1
     uses_with:
-      default_return_embeddings: False
-      dump_path: './workspace/dump_lmdb'
+      hostname: '127.0.0.1'
+      port: 5432
+      username: 'postgres'
+      password: '123456'
+      database: 'postgres'
+      table: 'kv_indexer'
+      return_embeddings: False
       default_traversal_paths:
         - 'm'
   - name: ranker
