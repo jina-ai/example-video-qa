@@ -19,9 +19,77 @@ docker run -e POSTGRES_PASSWORD=123456  -p 127.0.0.1:5432:5432/tcp postgres:13.2
 
 If you want to keep your data in the psql database,
 
+----
+### On Mac OS X
+
+1. Install Postgres
+
 ```bash
-W.I.P.
+# install postgres
+brew install postgresql
 ```
+
+1. Start Postgres
+```bash
+pg_ctl -D /usr/local/var/postgres start
+```
+
+1. Config Postgres
+```bash
+psql postgres
+```
+
+1. Create a new role with `psql`. By default we use `postgres` as the `ROLE` with the password `123456`. If you want to change to other values, please change the `username` and `password` in the `index.yml` and `query.yml` accordingly
+
+```sql
+postgres=# \du
+
+postgres=# CREATE ROLE postgres WITH LOGIN PASSWORD '123456';
+
+postgres-# ALTER ROLE postgres SUPERUSER;
+```
+
+1. Stop the Postgres
+
+```bash
+pg_ctl -D /usr/local/var/postgres stop
+```
+
+----
+
+### On Ubuntu
+
+1. Install Postgres
+```bash
+sudo apt-get install postgresql postgresql-contrib
+```
+
+1. Start Postgres
+```bash
+systemctl start postgresql
+```
+
+1. Config Postgres
+```bash
+sudo -u postgres psql
+```
+
+1. Create a new role with `psql`. By default we use `postgres` as the `ROLE` with the password `123456`. If you want to change to other values, please change the `username` and `password` in the `index.yml` and `query.yml` accordingly
+
+```sql
+postgres=# \du
+
+postgres=# CREATE ROLE postgres WITH LOGIN PASSWORD '123456';
+
+postgres-# ALTER ROLE postgres SUPERUSER;
+```
+
+1. Stop the Postgres
+
+```bash
+systemctl stop postgresql
+```
+
 
 ### Usage
 
