@@ -6,26 +6,18 @@ from jina import Document, DocumentArray, Flow
 
 
 def doc_generator(data_dir, num_docs):
+    for i, fn in enumerate(glob.glob(os.path.join(data_dir, '*.vtt'))):
+        if i < num_docs:
+            fid = os.path.splitext(os.path.basename(fn))[0]
+            doc = Document(id=fid, uri=fn)
+            yield doc
+
+
+def index(data_dir, num_docs):
     f = Flow.load_config('flows/index.yml')
     with f:
-        docs = DocumentArray()
-        for i, fn in enumerate(glob.glob(os.path.join(data_dir, '*.vtt'))):
-            if i < num_docs:
-                fid = os.path.splitext(os.path.basename(fn))[0]
-                doc = Document(id=fid, uri=fn)
-                docs.append(doc)
-        resp = f.post(on='/index', inputs=docs, return_results=True)
+        resp = f.post(on='/index', inputs=doc_generator(data_dir, num_docs), request_size=4, return_results=True)
         f.post(on='/dump', parameters={'dump_path': './workspace/dump_lmdb', 'shards': 1})
-
-
-def index(dataset,data_dir, num_docs):
-    f = Flow.load_config('flows/index.yml')
-    with f:
-        if dataset == 'toy-data':
-            path = str((Path(__file__).parent / 'toy-data' ).absolute())
-            doc_generator(path,num_docs)
-        elif dataset == 'self-data':
-            doc_generator(data_dir,num_docs)
 
 
 def query_restful():
@@ -41,13 +33,11 @@ def query_restful():
 
 @click.command()
 @click.option('--mode', '-m', type=click.Choice(['index', 'query']), default='query')
-@click.option('--dataset', '-d', type=click.Choice(['toy-data', 'self-data'],case_sensitive=False),
-              default='toy-data')
 @click.option('--data_dir', type=click.Path(exists=True))
 @click.option("--num_docs", "-n", default=100)
-def main(mode, dataset, data_dir, num_docs):
+def main(mode, data_dir, num_docs):
     if mode == 'index':
-        index(dataset,data_dir, num_docs)
+        index(data_dir, num_docs)
     elif mode == 'query':
         query_restful()
 
