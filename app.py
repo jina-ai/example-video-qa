@@ -10,27 +10,9 @@ def index():
         docs = DocumentArray()
         doc = Document(
             id='zvXkQkqd2I8',
-            uri=str((Path(__file__).parent / 'toy-data' / 'zvXkQkqd2I8.vtt').absolute()))
+            uri=str((Path(__file__).parent / 'toy-data' / 'zvXkQkqd2I8.mp4').absolute()))
         docs.append(doc)
-        resp = f.post(on='/index', inputs=docs, return_results=True)
-        f.post(on='/dump', parameters={'dump_path': './workspace/dump_lmdb', 'shards': 1})
-        print(f'docs: {len(docs)}')
-        for d in resp[0].docs:
-            print(f'chunks: {len(d.chunks)}')
-            for c in d.chunks:
-                print(f'{c.id}: {c.text}')
-
-
-def query():
-    f = Flow.load_config('flows/query.yml',
-                         override_with={
-                             'protocol': 'grpc',
-                             'cors': False})
-    with f:
-        resp = f.post(on='/search', inputs=[Document(text='is jina a one-liner?')], return_results=True)
-        for d in resp[0].docs:
-            for m in d.matches:
-                print(f'{d.id}: {m.id}, {m.scores["relevance"]}, {m.location}, {m.text}, {m.tags}')
+        f.post(on='/index', inputs=docs)
 
 
 def query_restful():

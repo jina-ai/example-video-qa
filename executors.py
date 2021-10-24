@@ -232,7 +232,7 @@ class DPRReaderRanker(Executor):
     def _prepare_inputs(
             self, question: str, matches: DocumentArray
     ) -> Tuple[str, List[str], Optional[List[str]]]:
-        contexts = matches.get_attributes('text', 'tags__beg_in_seconds', 'tags__end_in_seconds', 'tags__vid')
+        contexts = matches.get_attributes('text', 'tags__beg_in_seconds', 'tags__end_in_seconds', 'tags__video_uri')
 
         titles = None
         if self.title_tag_key:
@@ -277,7 +277,7 @@ class DPRReaderRanker(Executor):
             new_match.tags['beg_in_seconds'] = beg_in_seconds[span.doc_id]
             new_match.tags['end_in_seconds'] = end_in_seconds[span.doc_id]
             new_match.tags['original_text'] = texts[span.doc_id]
-            new_match.tags['vid'] = vid_list[span.doc_id]
+            new_match.tags['video_uri'] = vid_list[span.doc_id]
             if titles:
                 new_match.tags['title'] = titles[span.doc_id]
             new_matches.append(new_match)
@@ -296,9 +296,10 @@ class Text2Frame(Executor):
                 new_match = m
                 new_match.location.append(int(new_match.tags['beg_in_seconds'] * 1000))
                 new_match.location.append(int(new_match.tags['end_in_seconds'] * 1000))
-                vid = new_match.tags['vid'].split('.')[0]
+                vid = os.path.basename(new_match.tags['video_uri']).split('.')[0]
                 new_match.uri = f'https://www.youtube.com/watch?v={vid}'
-                new_match.tags['timestamp'] = int(new_match.tags['beg_in_seconds'])
                 new_match.scores['cosine'] = new_match.scores['relevance']
+                new_match.tags['timestamp'] = int(new_match.tags['beg_in_seconds'])
+                new_match.tags['vid'] = vid
                 new_matches.append(new_match)
             doc.matches = new_matches

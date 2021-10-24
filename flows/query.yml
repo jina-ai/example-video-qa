@@ -19,19 +19,6 @@ executors:
           - 'r'
         traversal_rdarray:
           - 'c'
-  - name: match_extender  # expand the matches with sliding windows
-    uses: MatchExtender
-    uses_with:
-      window_size: 4
-    py_module:
-      - executors.py
-  - name: kv_indexer
-    uses: jinahub://LMDBStorage/v0.1
-    uses_with:
-      default_return_embeddings: False
-      dump_path: './workspace/dump_lmdb'
-      default_traversal_paths:
-        - 'm'
   - name: ranker
     uses: DPRReaderRanker  # extract the answers from the matches, save the location information
     py_module:
