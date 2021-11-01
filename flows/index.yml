@@ -3,6 +3,7 @@ version: '1'
 executors:
   - name: subtitle_extractor
     uses: jinahub://VideoLoader/v0.3
+    install_requirements: true
     uses_with:
       modality_list:
         - 'text'

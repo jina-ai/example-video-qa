@@ -1,4 +1,4 @@
-jina==2.1.8
+jina==2.1.12
 webvtt-py==0.4.6
 torch==1.9.0
 transformers==4.9.1
