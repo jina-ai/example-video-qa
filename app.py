@@ -1,6 +1,5 @@
-from pathlib import Path
+import sys
 
-import click
 from jina import Document, DocumentArray, Flow
 
 
@@ -22,8 +21,6 @@ def query_restful():
         f.block()
 
 
-@click.command()
-@click.option('--mode', '-m', type=click.Choice(['index', 'query']), default='query')
 def main(mode):
     if mode == 'index':
         index()
@@ -32,4 +29,5 @@ def main(mode):
 
 
 if __name__ == '__main__':
-    main()
+    mode = sys.argv[1]
+    main(mode)

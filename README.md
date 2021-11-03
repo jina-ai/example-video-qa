@@ -1,7 +1,7 @@
 # example-video-search
 This is an example of building a video Question-Answer system using Jina.
 
-The index data is subtitle files of YouTube videos. After indexing, you can query with questions in natural langurage and retrieve the related video together with the timestamp that the corresponding answer appears. 
+The index data is subtitle files of YouTube videos. After indexing, you can query with questions in natural language and retrieve the related video together with the timestamp that the corresponding answer appears. 
 
 ![](.github/demo.gif)
 
@@ -17,13 +17,13 @@ bash scripts/download_data.sh
 By default, we index the video file, `toy-data/mnnC37ewQI8.mkv`
 
 ```bash
-python app.py -m index
+python app.py index
 ```
 
 Query with questions,
 
 ```bash
-python app.py -m query
+python app.py query
 ```
 
 To run the video search frontend, first set it up locally.
@@ -65,11 +65,12 @@ The query flow is as shown below.
 
 1. download the subtitle files
 ```bash
-youtube-dl --write-auto-sub --embed-subs https://www.youtube.com/watch\?v\=zvXkQkqd2I8 -o toy-data/zvXkQkqd2I8
+youtube-dl --write-sub --embed-subs -o toy-data/zvXkQkqd2I8 https://www.youtube.com/watch\?v\=zvXkQkqd2I8
 ```
+ > Replace `--write-sub` with `--write-auto-sub` when there is no subtitle file uploaded manually. This will use the subtitles generated automatically from YouTube.
 
 2. run the following
 ```bash
-python app.py -m index
-python app.py -m query
+python app.py index
+python app.py query
 ```
