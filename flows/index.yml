@@ -2,13 +2,13 @@ jtype: Flow
 version: '1'
 executors:
   - name: subtitle_extractor
-    uses: jinahub://VideoLoader/v0.3
-    install_requirements: true
+    uses: jinahub+docker://VideoLoader/v0.3
     uses_with:
       modality_list:
         - 'text'
     uses_request:
       '/index': 'extract'
+    volumes: './toy-data:/workspace/toy-data'
   - name: encoder
     uses: jinahub+docker://DPRTextEncoder/v0.2
     uses_with:
@@ -16,6 +16,6 @@ executors:
       encoder_type: 'context'
       traversal_paths:
         - 'c'
-    volumes: '/Users/nanwang/.cache/huggingface:/root/.cache/huggingface'
+    volumes: '.cache/huggingface:/root/.cache/huggingface'
   - name: vec_indexer
     uses: jinahub://SimpleIndexer/v0.6

@@ -10,7 +10,7 @@ executors:
     uses_with:
       encoder_type: 'question'
       batch_size: 1
-    volumes: '/Users/nanwang/.cache/huggingface:/root/.cache/huggingface'
+    volumes: '.cache/huggingface:/root/.cache/huggingface'
   - name: vec_indexer
     uses: jinahub://SimpleIndexer/v0.4
     uses_with:
