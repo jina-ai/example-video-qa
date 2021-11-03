@@ -14,7 +14,7 @@ bash scripts/download_data.sh
 
 ### Usage
 
-By default, we index the video file, `toy-data/zvXkQkqd2I8.mp4`
+By default, we index the video file, `toy-data/mnnC37ewQI8.mkv`
 
 ```bash
 python app.py -m index

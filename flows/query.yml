@@ -6,10 +6,11 @@ with:
   port_expose: '45678'
 executors:
   - name: encoder
-    uses: jinahub://DPRTextEncoder/v0.2
+    uses: jinahub+docker://DPRTextEncoder/v0.2
     uses_with:
       encoder_type: 'question'
       batch_size: 1
+    volumes: '/Users/nanwang/.cache/huggingface:/root/.cache/huggingface'
   - name: vec_indexer
     uses: jinahub://SimpleIndexer/v0.4
     uses_with:
@@ -21,11 +22,11 @@ executors:
           - 'c'
   - name: ranker
     uses: DPRReaderRanker  # extract the answers from the matches, save the location information
-    py_module:
+    py_modules:
       - executors.py
     uses_with:
       num_spans_per_match: 1
   - name: text2frame_converter  # calculate the location based on the text
     uses: Text2Frame
-    py_module:
+    py_modules:
       - executors.py

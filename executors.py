@@ -1,5 +1,4 @@
 from typing import Dict, Iterable, List, Optional, Tuple
-import webvtt
 import os
 
 

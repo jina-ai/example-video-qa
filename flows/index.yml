@@ -10,11 +10,12 @@ executors:
     uses_request:
       '/index': 'extract'
   - name: encoder
-    uses: jinahub://DPRTextEncoder/v0.2
+    uses: jinahub+docker://DPRTextEncoder/v0.2
     uses_with:
       pretrained_model_name_or_path: 'facebook/dpr-ctx_encoder-single-nq-base'
       encoder_type: 'context'
       traversal_paths:
         - 'c'
+    volumes: '/Users/nanwang/.cache/huggingface:/root/.cache/huggingface'
   - name: vec_indexer
     uses: jinahub://SimpleIndexer/v0.6

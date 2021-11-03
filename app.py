@@ -10,7 +10,7 @@ def index():
         docs = DocumentArray()
         doc = Document(
             id='zvXkQkqd2I8',
-            uri=str((Path(__file__).parent / 'toy-data' / 'zvXkQkqd2I8.mp4').absolute()))
+            uri=str((Path(__file__).parent / 'toy-data' / 'mnnC37ewQI8.mkv').absolute()))
         docs.append(doc)
         f.post(on='/index', inputs=docs)
 
