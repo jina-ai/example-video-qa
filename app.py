@@ -1,18 +1,22 @@
+import glob
 from pathlib import Path
-
+import os
 import click
 from jina import Document, DocumentArray, Flow
 
 
-def index():
+def doc_generator(data_dir, num_docs):
+    for i, fn in enumerate(glob.glob(os.path.join(data_dir, '*.vtt'))):
+        if i < num_docs:
+            fid = os.path.splitext(os.path.basename(fn))[0]
+            doc = Document(id=fid, uri=fn)
+            yield doc
+
+
+def index(data_dir, num_docs):
     f = Flow.load_config('flows/index.yml')
     with f:
-        docs = DocumentArray()
-        doc = Document(
-            id='zvXkQkqd2I8',
-            uri=str((Path(__file__).parent / 'toy-data' / 'zvXkQkqd2I8.vtt').absolute()))
-        docs.append(doc)
-        f.post(on='/index', inputs=docs)
+        f.post(on='/index', inputs=doc_generator(data_dir, num_docs), request_size=4)
 
 
 def query_restful():
@@ -28,9 +32,11 @@ def query_restful():
 
 @click.command()
 @click.option('--mode', '-m', type=click.Choice(['index', 'query']), default='query')
-def main(mode):
+@click.option('--data_dir', type=click.Path(exists=True))
+@click.option("--num_docs", "-n", default=100)
+def main(mode, data_dir, num_docs):
     if mode == 'index':
-        index()
+        index(data_dir, num_docs)
     elif mode == 'query':
         query_restful()
 
