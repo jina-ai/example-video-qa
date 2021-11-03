@@ -12,14 +12,15 @@ executors:
       encoder_type: 'context'
       traversal_paths:
         - 'c'
-  - name: vec_indexer
-    uses: jinahub://SimpleIndexer/v0.4
-  - name: kv_indexer
-    uses: jinahub://LMDBStorage/v0.1
+  - name: indexer
+    uses: jinahub://FaissPostgresIndexer/v0.3
     uses_with:
-      default_return_embeddings: False
+      total_shards: 1
       default_traversal_paths:
         - 'c'
-    needs: subtitle_extractor
-  - name: joiner
-    needs: [kv_indexer, vec_indexer]
+      hostname: '127.0.0.1'
+      port: 5432
+      username: 'postgres'
+      password: '123456'
+      database: 'postgres'
+      table: 'kv_indexer'

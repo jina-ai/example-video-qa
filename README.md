@@ -11,9 +11,90 @@ The index data is subtitle files of YouTube videos. After indexing, you can quer
 pip install -r requirements.txt
 ```
 
+You need to have the Postgres service running at the backend. If you just want to try it our, you can use the psql docker image,
+
+```bash
+docker run -e POSTGRES_PASSWORD=123456  -p 127.0.0.1:5432:5432/tcp postgres:13.2
+```
+
+If you want to keep your data in the psql database,
+
+----
+### On Mac OS X
+
+1. Install Postgres
+
+```bash
+# install postgres
+brew install postgresql
+```
+
+1. Start Postgres
+```bash
+pg_ctl -D /usr/local/var/postgres start
+```
+
+1. Config Postgres
+```bash
+psql postgres
+```
+
+1. Create a new role with `psql`. By default we use `postgres` as the `ROLE` with the password `123456`. If you want to change to other values, please change the `username` and `password` in the `index.yml` and `query.yml` accordingly
+
+```sql
+postgres=# \du
+
+postgres=# CREATE ROLE postgres WITH LOGIN PASSWORD '123456';
+
+postgres-# ALTER ROLE postgres SUPERUSER;
+```
+
+1. Stop the Postgres
+
+```bash
+pg_ctl -D /usr/local/var/postgres stop
+```
+
+----
+
+### On Ubuntu
+
+1. Install Postgres
+```bash
+sudo apt-get install postgresql postgresql-contrib
+```
+
+1. Start Postgres
+```bash
+systemctl start postgresql
+```
+
+1. Config Postgres
+```bash
+sudo -u postgres psql
+```
+
+1. Create a new role with `psql`. By default we use `postgres` as the `ROLE` with the password `123456`. If you want to change to other values, please change the `username` and `password` in the `index.yml` and `query.yml` accordingly
+
+```sql
+postgres=# \du
+
+postgres=# CREATE ROLE postgres WITH LOGIN PASSWORD '123456';
+
+postgres-# ALTER ROLE postgres SUPERUSER;
+```
+
+1. Stop the Postgres
+
+```bash
+systemctl stop postgresql
+```
+
+
 ### Usage
 
-By default, we index the subtitle file, `toy-data/zvXkQkqd2I8.vtt`
+By default, we index the subtitle file, `toy-data/zvXkQkqd2I8.vtt`.
+
 
 ```bash
 python app.py -m index --data-dir ./toy-data
@@ -25,16 +106,23 @@ Query with questions,
 python app.py -m query
 ```
 
-To start the video UI, run the following codes and open `http://localhost:3000/video/` in your browser.
+To run the video search frontend, first set it up locally.
+You should have Node and Yarn installed on your machine.
 
 ```bash
-git clone https://github.com/jina-ai/jina-ui.git
-cd jina-ui
-git checkout showcase-video-search
-yarn install
-yarn jinajs build
-yarn showcases dev
+cd frontend
+yarn
 ```
+This will install the necessary dependencies.
+
+To run the search frontend, run
+
+```bash
+yarn dev
+```
+
+You can see the search frontend at [`http://localhost:3000/`](http://localhost:3000/).
+
 
 ## How it works
 

@@ -16,8 +16,7 @@ def doc_generator(data_dir, num_docs):
 def index(data_dir, num_docs):
     f = Flow.load_config('flows/index.yml')
     with f:
-        resp = f.post(on='/index', inputs=doc_generator(data_dir, num_docs), request_size=4, return_results=True)
-        f.post(on='/dump', parameters={'dump_path': './workspace/dump_lmdb', 'shards': 1})
+        f.post(on='/index', inputs=doc_generator(data_dir, num_docs), request_size=4)
 
 
 def query_restful():
