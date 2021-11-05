@@ -21,9 +21,7 @@ executors:
         traversal_rdarray:
           - 'c'
   - name: ranker
-    uses: DPRReaderRanker  # extract the answers from the matches, save the location information
-    py_modules:
-      - executors.py
+    uses: jinahub+docker://DPRReaderRanker/v0.3  # extract the answers from the matches, save the location information
     uses_with:
       num_spans_per_match: 1
   - name: text2frame_converter  # calculate the location based on the text
