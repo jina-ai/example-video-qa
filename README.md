@@ -97,7 +97,7 @@ By default, we index the subtitle file, `toy-data/zvXkQkqd2I8.vtt`.
 
 
 ```bash
-python app.py -m index --data-dir ./toy-data
+python app.py -m index --data_dir ./toy-data
 ```
 
 Query with questions,

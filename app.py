@@ -23,10 +23,6 @@ def query_restful():
     f = Flow.load_config('flows/query.yml')
 
     with f:
-        # create a psql snapshot
-        f.post(on='/snapshot')
-        # load data into faiss
-        f.post(on='/sync', parameters={'only_delta': True})
         f.block()
 
 

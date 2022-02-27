@@ -11,15 +11,19 @@ executors:
       encoder_type: 'question'
       batch_size: 1
   - name: vec_indexer
-    uses: jinahub://FaissPostgresIndexer/v0.3
+    uses: jinahub://HNSWPostgresIndexer/v0.6
+    install_requirements: True
     uses_with:
       total_shards: 1
+      traversal_paths: ['r']
+      startup_sync: True
       hostname: '127.0.0.1'
       port: 5432
       username: 'postgres'
       password: '123456'
       database: 'postgres'
       table: 'kv_indexer'
+      dim: 768
   - name: match_extender  # expand the matches with sliding windows
     uses: MatchExtender
     uses_with:
@@ -27,7 +31,8 @@ executors:
     py_module:
       - executors.py
   - name: kv_indexer
-    uses: jinahub://PostgreSQLStorage/v0.1
+    uses: jinahub://PostgreSQLStorage/v0.2
+    install_requirements: True
     uses_with:
       hostname: '127.0.0.1'
       port: 5432
@@ -35,7 +40,6 @@ executors:
       password: '123456'
       database: 'postgres'
       table: 'kv_indexer'
-      return_embeddings: False
       default_traversal_paths:
         - 'm'
   - name: ranker

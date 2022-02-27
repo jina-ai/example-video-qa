@@ -13,10 +13,12 @@ executors:
       traversal_paths:
         - 'c'
   - name: indexer
-    uses: jinahub://FaissPostgresIndexer/v0.3
+    uses: jinahub://HNSWPostgresIndexer/v0.6
+    install_requirements: True
     uses_with:
       total_shards: 1
-      default_traversal_paths:
+      startup_sync: False
+      traversal_paths:
         - 'c'
       hostname: '127.0.0.1'
       port: 5432
