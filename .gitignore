@@ -7,3 +7,5 @@ data/
 # node
 node_modules
 .next
+.cache/
+toy-data/

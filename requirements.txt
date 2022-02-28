@@ -1,8 +1,5 @@
-jina==2.1.5
-webvtt-py==0.4.6
+jina==3.0.3
 torch==1.9.0
 transformers==4.9.1
-lmdb==1.2.1
-jina-commons @ git+https://github.com/jina-ai/jina-commons.git@v0.0.6#egg=jina-commons
-psycopg2-binary==2.8.6
-faiss-cpu==1.6.5
+scipy==1.6.1
+youtube-dl==2021.6.6

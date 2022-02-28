@@ -2,27 +2,21 @@ jtype: Flow
 version: '1'
 executors:
   - name: subtitle_extractor
-    uses: SubtitleExtractor
-    py_module:
-      - executors.py
+    uses: jinahub+docker://VideoLoader/v0.6
+    uses_with:
+      modality_list:
+        - 'text'
+    uses_request:
+      '/index': 'extract'
+    volumes: './toy-data:/workspace/toy-data'
   - name: encoder
-    uses: jinahub://DPRTextEncoder/v0.2
+    uses: jinahub+docker://DPRTextEncoder/v0.5
     uses_with:
       pretrained_model_name_or_path: 'facebook/dpr-ctx_encoder-single-nq-base'
       encoder_type: 'context'
-      traversal_paths:
-        - 'c'
-  - name: indexer
-    uses: jinahub://HNSWPostgresIndexer/v0.6
-    install_requirements: True
+      traversal_paths: '@c'
+    volumes: '.cache/huggingface:/root/.cache/huggingface'
+  - name: vec_indexer
+    uses: jinahub://SimpleIndexer/v0.14
     uses_with:
-      total_shards: 1
-      startup_sync: False
-      traversal_paths:
-        - 'c'
-      hostname: '127.0.0.1'
-      port: 5432
-      username: 'postgres'
-      password: '123456'
-      database: 'postgres'
-      table: 'kv_indexer'
+      table_name: 'video_qa'
