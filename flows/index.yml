@@ -2,7 +2,7 @@ jtype: Flow
 version: '1'
 executors:
   - name: subtitle_extractor
-    uses: jinahub+docker://VideoLoader/v0.3
+    uses: jinahub+docker://VideoLoader/v0.6
     uses_with:
       modality_list:
         - 'text'
@@ -10,12 +10,13 @@ executors:
       '/index': 'extract'
     volumes: './toy-data:/workspace/toy-data'
   - name: encoder
-    uses: jinahub+docker://DPRTextEncoder/v0.2
+    uses: jinahub+docker://DPRTextEncoder/v0.5
     uses_with:
       pretrained_model_name_or_path: 'facebook/dpr-ctx_encoder-single-nq-base'
       encoder_type: 'context'
-      traversal_paths:
-        - 'c'
+      traversal_paths: '@c'
     volumes: '.cache/huggingface:/root/.cache/huggingface'
   - name: vec_indexer
-    uses: jinahub://SimpleIndexer/v0.6
+    uses: jinahub://SimpleIndexer/v0.14
+    uses_with:
+      table_name: 'video_qa'

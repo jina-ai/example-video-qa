@@ -6,22 +6,20 @@ with:
   port_expose: '45678'
 executors:
   - name: encoder
-    uses: jinahub+docker://DPRTextEncoder/v0.2
+    uses: jinahub+docker://DPRTextEncoder/v0.5
     uses_with:
       encoder_type: 'question'
       batch_size: 1
     volumes: '.cache/huggingface:/root/.cache/huggingface'
   - name: vec_indexer
-    uses: jinahub://SimpleIndexer/v0.4
+    uses: jinahub://SimpleIndexer/v0.14
     uses_with:
       match_args:
         limit: 20
-        traversal_ldarray:
-          - 'r'
-        traversal_rdarray:
-          - 'c'
+      table_name: 'video_qa'
+      traversal_right: '@c'
   - name: ranker
-    uses: jinahub+docker://DPRReaderRanker/v0.3  # extract the answers from the matches, save the location information
+    uses: jinahub+docker://DPRReaderRanker/v0.4  # extract the answers from the matches, save the location information
     uses_with:
       num_spans_per_match: 1
   - name: text2frame_converter  # calculate the location based on the text

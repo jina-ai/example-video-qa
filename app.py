@@ -11,7 +11,7 @@ def index():
             id='mnnC37ewQI8',
             uri='./toy-data/mnnC37ewQI8.mkv')
         docs.append(doc)
-        f.post(on='/index', inputs=docs)
+        f.post(on='/index', inputs=docs, show_progress=True)
 
 
 def query_restful():

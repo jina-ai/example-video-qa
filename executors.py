@@ -1,13 +1,12 @@
-from typing import Optional
 import os
 
-from jina import DocumentArray, Executor, requests
+from docarray import DocumentArray
+from jina import Executor, requests
+
 
 class Text2Frame(Executor):
     @requests
-    def convert(self, docs: Optional[DocumentArray]=None, **kwargs):
-        if not docs:
-            return
+    def convert(self, docs: DocumentArray, **kwargs):
         for doc in docs:
             new_matches = []
             for m in doc.matches:
