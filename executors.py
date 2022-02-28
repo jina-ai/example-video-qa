@@ -19,4 +19,5 @@ class Text2Frame(Executor):
                 new_match.tags['timestamp'] = int(new_match.tags['beg_in_seconds'])
                 new_match.tags['vid'] = vid
                 new_matches.append(new_match)
+            doc.pop('embedding')
             doc.matches = new_matches

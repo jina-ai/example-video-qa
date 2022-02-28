@@ -50,7 +50,7 @@ export default function GamingShowcase() {
 }
 
 const customReponseSerializer = (rawResponse: AnyObject) => {
-    const docs = rawResponse.data.data.docs;
+    const docs = rawResponse.data.data;
     const results: SimpleResults[] = [];
     const queries: SimpleQueries = [];
     docs.forEach((doc: any) => {
@@ -60,9 +60,9 @@ const customReponseSerializer = (rawResponse: AnyObject) => {
         });
         const { matches } = doc;
         results.push(
-            matches.sort((match1: any, match2: any) => match1.scores.cosine.value - match2.scores.cosine.value).map(({ scores, text, uri, tags, mimeType }: any) => {
-                const score = scores.cosine.value
-                    ? scores.cosine.value
+            matches.sort((match1: any, match2: any) => match1.scores.relevance_score.value - match2.scores.relevance_score.value).map(({ scores, text, uri, tags, mimeType }: any) => {
+                const score = scores.relevance_score.value
+                    ? scores.relevance_score.value
                     : scores.score?.value;
                 return {
                     data: tags?.glb_path || text || uri,
