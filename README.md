@@ -1,11 +1,13 @@
 # example-video-search
 This is an example of building a video Question-Answer system using Jina.
 
-The index data is subtitle files of YouTube videos. After indexing, you can query with questions in natural language and retrieve the related video together with the timestamp that the corresponding answer appears. 
+The index data is videos with subtitle information. After indexing, you can query with questions in natural language and retrieve the related video together with the timestamp that the corresponding answer appears. 
 
 ![](.github/demo.gif)
 
 ## Prerequisites
+
+We use the YouTube video as a toy example,
 
 ```bash
 pip install -r requirements.txt
@@ -33,6 +35,7 @@ You should have Node and Yarn installed on your machine.
 cd frontend
 yarn
 ```
+
 This will install the necessary dependencies.
 
 To run the search frontend, run
@@ -61,7 +64,7 @@ The query flow is as shown below.
 
 ![](.github/flow_query.png)
 
-## How to index my own data? [W.I.P.]
+## How to index my own data?
 
 1. download the subtitle files
 ```bash
